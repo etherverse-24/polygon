@@ -94,17 +94,18 @@ $background-color_1: rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 991px) {
   .hero-video-product-page.is-game {
-    width: 66vw;
-    height: 34vh;
+    width: 88vw;
+    height: 26vh;
     margin-top: 0;
     display: block;
     top: auto;
-    bottom: 3rem;
+    bottom: -16rem;
     left: 50%;
     right: 0%;
     transform: translate(-50%);
-  }
+}
   .hero-video-product-page {
     display: none;
   }
 }
+

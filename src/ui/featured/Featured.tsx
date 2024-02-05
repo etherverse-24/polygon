@@ -2,14 +2,14 @@ import "./feature.scss";
 
 const Featured = () => {
   return (
-    <section id="featured" className="min-h-[80vh]  text-white relative">
+    <section id="featured" className="min-h-[80vh] -mt-10 z-10 text-white relative">
       <div className="test"></div>
       {/* <img src="/bg.png" className="absolute w-full h-full opacity-50 -z-10" alt="" /> */}
       <div className="relative z-10 lg:w-[85%] mx-auto">
-        <div className="pt-32 lg:w-1/2 ">
-          <h1 className="text-3xl">Our Featured Game</h1>
-          <h1 className="text-7xl pt-10">MetaDogeUnity</h1>
-          <h2 className="text-lg pt-10">
+        <div className="pt-10 lg:pt-32 lg:w-1/2 ">
+          <h1 className="text-4xl text-center lg:text-left">Our Featured Game</h1>
+          <h1 className="text-4xl lg:text-7xl pt-10 text-center lg:text-left">MetaDogeUnity</h1>
+          <h2 className="text-lg pt-10 text-center lg:text-left">
             MULTICHAIN METAVERSE AAA GAMEFI PLATFORM THAT COMBINES THE POWER OF
             ACCOUNT ABSTRACTION AND BITCOIN
           </h2>{" "}
