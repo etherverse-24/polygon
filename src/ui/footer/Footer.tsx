@@ -7,7 +7,7 @@ function Footer() {
     <>
       <section id="footer">
         <div className="left__content">
-          <a href="mailto:contact@bitport.xyz">contact@bitport.xyz</a>
+          <a href="mailto:contact@polygon.xyz">contact@polygon.xyz</a>
         </div>
         <div className="center__content">
           <ul>
@@ -45,7 +45,7 @@ function Footer() {
         </div>
       </section>
       <div className="last__footer">
-        <p>© Copyright 2023 bitport. All Rights Reserved</p>
+        <p>© Copyright 2023 polygon blockchain. All Rights Reserved</p>
       </div>
     </>
   );
