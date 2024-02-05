@@ -1,10 +1,5 @@
 import { useState } from "react";
 import "./navbar.scss";
-
-import { 
-  // FaChartSimple,
-   FaXTwitter } from "react-icons/fa6";
-import { BiLogoTelegram } from "react-icons/bi";
 import { NAV_BAR_LINKS } from "../../constents";
 
 
@@ -23,7 +18,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="h-20 w-full flexBetween fixed z-[100] top-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-md nav text-white font-bold transition-all px-8 ">
+      <nav className="h-10 w-full flexBetween fixed z-[100] top-4  nav text-white font-bold transition-all px-8 ">
         {" "}
         <a href="#hero">
           <img src="/logo.png" className="h-20 filter drop-shadow-xl" alt="" />
@@ -51,28 +46,7 @@ const Navbar = () => {
          
           </ul>
         </div>
-        <div className="hidden lg:flexCenter gap-5 text-white">
-        <a href='https://twitter.com/bitport_xyz'
-           target='_blank'>
-          <FaXTwitter
-            size={20}
-            className="hover:text-[#024453] cursor-pointer hover:scale-125"
-          />
-          </a>
-          <a href='https://t.me/bitport_erc'
-           target='_blank'>
-          <BiLogoTelegram
-            size={25}
-            className="hover:text-[#024453] cursor-pointer hover:scale-125"
-          
-          />
-          </a>
-          {/* <FaChartSimple
-            size={25}
-            className="hover:text-[#024453] cursor-pointer hover:scale-125"
-          />
-        <BuyButton/> */}
-        </div>
+   
         {/* hamburger Icon */}
         <div
           className={isMenuOpen ? `hamburger active` : "hamburger"}
