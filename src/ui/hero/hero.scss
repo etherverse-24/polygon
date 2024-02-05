@@ -64,23 +64,25 @@
   .section_img-overflow {
     top: -1.7rem;
   }
-  .hero_bg-image {
-    width: 120%;
-    max-width: none;
-    margin-top: -10%;
-    top: 5.4rem;
-    left: -77%;
-    transform: scale(1.7) rotate(-18.65deg);
-    &.hero_bg-image.is-2 {
+  .container_bg {
+    .hero_bg-image {
+      width: 120%;
+      max-width: none;
+      margin-top: -10%;
+      top: 5.4rem;
+      left: -77%;
+      transform: scale(1.7) rotate(-18.65deg);
+      &.hero_bg-image.is-2 {
         width: 140%;
         top: 12.4rem;
         left: -82%;
-    }
-    &.hero_bg-image.is-3 {
+      }
+      &.hero_bg-image.is-3 {
         width: 150%;
         top: 6.6rem;
         right: -79.55%;
         transform: rotate(-77deg);
+      }
     }
   }
 }
@@ -90,13 +92,13 @@
     width: 90%;
     left: -46%;
     &.hero_bg-image.is-2 {
-        width: 80%;
-        left: -35%;
+      width: 80%;
+      left: -35%;
     }
     &.hero_bg-image.is-3 {
-        width: 80%;
-        top: 12.6rem;
-        right: -38.55%;
+      width: 80%;
+      top: 12.6rem;
+      right: -38.55%;
     }
   }
 }

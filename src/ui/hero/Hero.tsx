@@ -8,7 +8,7 @@ const Hero = () => {
         alt=""
       />
       <div className="hero_bg-gradient z-[2]"></div>
-      <div className="min-h-lvh relative lg:rounded-[40px] bg-[#080808] overflow-hidden">
+      <div className="min-h-lvh relative lg:rounded-[40px] bg-[#080808] overflow-hidden p-4">
         <div className="container_bg z-0">
           <img
             src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001.webp"
@@ -33,19 +33,17 @@ const Hero = () => {
             className="hero_bg-image is-3"
           />
         </div>
-        <div className="pt-48 flex-col gap-8 flexCenter relative z-10">
-          <h1 className="text-white text-5xl font-semibold tracking-wide ">
+        <div className="pt-60 w-full flex-col gap-8 flexCenter relative z-10">
+          <h1 className="text-white text-center text-4xl lg:text-5xl lg:font-semibold tracking-wide ">
             PLAY 2 EARN BLOCKCHAIN UNITY GAMES!
           </h1>
-          <h4 className="text-gray-500 text-2xl ">
+          <h4 className="text-gray-500 text-center text-xl lg:text-2xl ">
             Multichain Metaverse Gaming platform with Account abstraction with
             Fusion of Bitcoin and EVM network
           </h4>
-          <a href="">
-            <button className=" p-4 py-3 text-black bg-purple-800 rounded-lg">
-              Play Now
-            </button>
-          </a>
+          <div className="w-full lg:w-auto flexCenter p-4 py-3 text-black bg-purple-800 rounded-lg hover:bg-purple-600 hover:shadow-md hover:shadow-purple-400">
+            <a href="" className="mx-auto w-max">Play Now</a>
+          </div>
         </div>
       </div>
     </section>
