@@ -45,4 +45,16 @@ export const NAV_BAR_LINKS = [
   },{
     Game_name:'ludo',
     img:'./27.png'
+  },{
+    Game_name:'ludo',
+    img:'./27.png'
+  },{
+    Game_name:'ludo',
+    img:'./27.png'
+  },{
+    Game_name:'ludo',
+    img:'./27.png'
+  },{
+    Game_name:'ludo',
+    img:'./27.png'
   },]

@@ -1,14 +1,13 @@
 import { games } from "../../constents";
 import "./games.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Pagination, Autoplay,Mousewheel } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 const Games = () => {
   return (
-    // <section id="games" className="min-h-lvh">Games</section>
     <section className="section">
       <div className="container z-2">
         <div className="spacer_80" />
@@ -16,19 +15,15 @@ const Games = () => {
         <div className="spacer_32" />
         <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, Autoplay]}
+          modules={[Navigation, Pagination, Autoplay,Mousewheel]}
           spaceBetween={10}
           slidesPerView={6}
           effect="fade"
-          autoplay={{
-            delay: 1500,
-            disableOnInteraction: false,
-          }}
+          mousewheel={true}
           navigation={{
             nextEl: null, // Hide next arrow
             prevEl: null, // Hide previous arrow
           }}
-          pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           breakpoints={{
             // when window width is >= 920px
@@ -39,15 +34,15 @@ const Games = () => {
               slidesPerView: 2,
             },
             920: {
-              slidesPerView: 4,
+              slidesPerView: 6,
             },
           }}
         >
           <div className="flex">
             {games.map((item) => (
               <SwiperSlide>
-                <div className='lg:w-[320px] w-full mr-10'>
-                  <div className="cat-slide_holder h-[320px] lg:h-[350px]">
+                <div className='lg:w-[220px] w-full mr-10'>
+                  <div className="cat-slide_holder h-[320px] lg:h-[240px]">
                     <div>
                       <h3 className="h_24 text-white">{item.Game_name}</h3>
                     </div>
