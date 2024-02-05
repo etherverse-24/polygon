@@ -6,8 +6,8 @@ $background-color_1: rgba(0, 0, 0, 0.2);
   background-size: cover;
   // z-index: 0;
   .test {
-    backdrop-filter: blur(5px);
-    background: rgba(0, 0, 0, 0.272);
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
     position: absolute;
     height: 100%;
@@ -90,7 +90,7 @@ $background-color_1: rgba(0, 0, 0, 0.2);
   height: 57vh;
   margin-top: 0;
   margin-bottom: 0;
-  top: 5vh;
+  top: 11vh;
 }
 @media screen and (max-width: 991px) {
   .hero-video-product-page.is-game {

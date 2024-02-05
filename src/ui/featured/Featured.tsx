@@ -2,7 +2,7 @@ import "./feature.scss";
 
 const Featured = () => {
   return (
-    <section id="featured" className="min-h-[70vh]  text-white relative">
+    <section id="featured" className="min-h-[80vh]  text-white relative">
       <div className="test"></div>
       {/* <img src="/bg.png" className="absolute w-full h-full opacity-50 -z-10" alt="" /> */}
       <div className="relative z-10 lg:w-[85%] mx-auto">
@@ -14,7 +14,7 @@ const Featured = () => {
             ACCOUNT ABSTRACTION AND BITCOIN
           </h2>{" "}
         </div>
-        <div className="hero-video-product-page is-game ">
+        <div className="hero-video-product-page is-game">
           <div className="overlay" />
           <div className="games-main-img-inner">
             <div className="games-main-img-content">
@@ -53,7 +53,7 @@ const Featured = () => {
                 data-object-fit="cover"
               >
                 <source
-                  src="https://player.vimeo.com/progressive_redirect/playback/808950926/rendition/720p/file.mp4?loc=external&signature=d2e4ab64d75abc4c9c1d1adcfb5a86b7afa250d5844883de6fef34026b69a0f2"
+                  src="./bg1-video.mp4"
                   data-wf-ignore="true"
                 />
               </video>
