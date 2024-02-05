@@ -1,7 +1,7 @@
 import "./hero.scss";
 const Hero = () => {
   return (
-    <section className="px-1 lg:p-2 bg-red-200 pb-0 relative overflow-hidden">
+    <section id="hero" className="px-1 lg:p-2 bg-red-200 pb-0 relative overflow-hidden">
       <img
         src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0706e77100ec0ebec81c_Hero%20section%20background.webp"
         className="section_img-overflow"
@@ -38,7 +38,7 @@ const Hero = () => {
           <h1 className="text-white text-center text-4xl lg:text-5xl lg:font-semibold tracking-wide ">
             PLAY 2 EARN BLOCKCHAIN UNITY GAMES!
           </h1>
-          <h4 className="text-gray-500 text-center text-xl lg:text-2xl ">
+          <h4 className="text-gray-500  lg:w-2/3 text-center text-xl lg:text-2xl ">
             Multichain Metaverse Gaming platform with Account abstraction with
             Fusion of Bitcoin and EVM network
           </h4>

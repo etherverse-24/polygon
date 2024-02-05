@@ -59,6 +59,15 @@
   top: -30rem;
   left: -20%;
   transform: rotate(20deg);
+  animation: 10s linear 0s infinite normal none running slide;
+}
+@keyframes slide {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
 }
 @media screen and (max-width: 479px) {
   .section_img-overflow {
@@ -102,7 +111,7 @@ $color_1: #fff;
         -webkit-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
         background-image: linear-gradient( to right, #667eea, #764ba2, #6b8dd6, #8e37d7 );
-        box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+       
         &:hover {
             background-position: 100% 0;
             moz-transition: all .4s ease-in-out;
