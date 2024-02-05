@@ -27,34 +27,34 @@ export const NAV_BAR_LINKS = [
     ],
   };
   export const games=[{
-    Game_name:'ludo',
-    img:'./27.png'
+    Game_name:'Ludo',
+    img:'./27.png',
+    des:'Ludo is goodadddddddddddddddddddrakkkk'
   },
   {
-    Game_name:'ludo',
-    img:'./27.png'
-  },{
-    Game_name:'ludo',
-    img:'./27.png'
-  },{
-    Game_name:'ludo',
-    img:'./27.png'
-  },{
-    Game_name:'ludo',
-    img:'./27.png'
-  },{
-    Game_name:'ludo',
-    img:'./27.png'
-  },{
-    Game_name:'ludo',
-    img:'./27.png'
-  },{
-    Game_name:'ludo',
-    img:'./27.png'
-  },{
-    Game_name:'ludo',
-    img:'./27.png'
-  },{
-    Game_name:'ludo',
-    img:'./27.png'
-  },]
+    Game_name:'Ludo',
+    img:'./27.png',
+    des:'Ludo is goodadddddddddddddddddddrakkkk'
+  },
+  {
+    Game_name:'Ludo',
+    img:'./27.png',
+    des:'Ludo is goodadddddddddddddddddddrakkkk'
+  },
+  {
+    Game_name:'Ludo',
+    img:'./27.png',
+    des:'Ludo is goodadddddddddddddddddddrakkkk'
+  },
+  {
+    Game_name:'Ludo',
+    img:'./27.png',
+    des:'Ludo is goodadddddddddddddddddddrakkkk'
+  },
+  {
+    Game_name:'Ludo',
+    img:'./27.png',
+    des:'Ludo is goodadddddddddddddddddddrakkkk'
+  },
+  
+ ]
