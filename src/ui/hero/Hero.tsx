@@ -1,7 +1,7 @@
 import "./hero.scss";
 const Hero = () => {
   return (
-    <section id="hero" className="px-1 lg:p-2 bg-red-200 pb-0 relative overflow-hidden">
+    <section id="hero" className="px-1 lg:p-2  pb-0 relative overflow-hidden">
       <img
         src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0706e77100ec0ebec81c_Hero%20section%20background.webp"
         className="section_img-overflow"
