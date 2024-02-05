@@ -2,8 +2,6 @@ import { useState } from "react";
 import "./navbar.scss";
 import { NAV_BAR_LINKS } from "../../constents";
 
-
-
 declare global {
   interface Window {
     ethereum?: Record<string, unknown> | undefined;
@@ -13,15 +11,13 @@ declare global {
 const Navbar = () => {
   // const navigate =useNavigate()
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
- 
-
 
   return (
-    <header>
-      <nav className="h-10 w-full flexBetween fixed z-[100] top-4  nav text-white font-bold transition-all px-8 ">
+    <header className="fixed z-[100] top-4 w-full">
+      <nav className="h-20 px-32 flexBetween rounded-3xl  nav text-white font-bold transition-all ">
         {" "}
         <a href="#hero">
-          <img src="/logo.png" className="h-20 filter drop-shadow-xl" alt="" />
+          <img src="https://polygon-blockchain.vercel.app/assets/icon/logo-1.png" className="h-20 filter drop-shadow-xl" alt="" />
         </a>
         <div className={isMenuOpen ? `links nav-mobile-active` : "links"}>
           <ul>
@@ -43,10 +39,8 @@ const Navbar = () => {
             >
               Doc
             </a>
-         
           </ul>
         </div>
-   
         {/* hamburger Icon */}
         <div
           className={isMenuOpen ? `hamburger active` : "hamburger"}
