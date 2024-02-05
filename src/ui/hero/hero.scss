@@ -86,6 +86,36 @@
     }
   }
 }
+$color_1: #fff;
+    .btn {
+      
+        font-size: 16px;
+        font-weight: 600;
+        color: $color_1;
+        cursor: pointer;    
+        height: 55px;
+        text-align: center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        -o-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        background-image: linear-gradient( to right, #667eea, #764ba2, #6b8dd6, #8e37d7 );
+        box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+        &:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    
+  
 
 @media screen and (max-width: 767px) {
   .hero_bg-image {

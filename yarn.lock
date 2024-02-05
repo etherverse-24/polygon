@@ -2708,6 +2708,7 @@ __metadata:
     react-dom: ^18.2.0
     react-icons: ^4.12.0
     sass: ^1.69.5
+    swiper: ^11.0.6
     tailwindcss: ^3.4.0
     typescript: ^5.2.2
     vite: ^5.0.8
@@ -3219,6 +3220,13 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
+  languageName: node
+  linkType: hard
+
+"swiper@npm:^11.0.6":
+  version: 11.0.6
+  resolution: "swiper@npm:11.0.6"
+  checksum: 7e0acf9c56732b7822502bf5c03c6d24ef2531a98897affe9009769bd68440d9b3153f91d342e29747d9406247e855275969225569b2dbb05edd6c8743bf4026
   languageName: node
   linkType: hard
 

@@ -26,6 +26,7 @@ const Hero = () => {
           />
           <img
             src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201.webp"
+            // src="/Header.png"
             loading="eager"
             sizes="(max-width: 479px) 100vw, 92vw"
             srcSet="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201-p-500.webp 500w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201-p-800.webp 800w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201.webp 1203w"
@@ -41,7 +42,7 @@ const Hero = () => {
             Multichain Metaverse Gaming platform with Account abstraction with
             Fusion of Bitcoin and EVM network
           </h4>
-          <div className="w-full lg:w-auto flexCenter p-4 py-3 text-black bg-purple-800 rounded-lg hover:bg-purple-600 hover:shadow-md hover:shadow-purple-400">
+          <div className="w-full btn lg:w-auto flexCenter p-8 py-3 text-white  rounded-lg ">
             <a href="" className="mx-auto w-max">Play Now</a>
           </div>
         </div>
