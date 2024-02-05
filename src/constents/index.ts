@@ -26,3 +26,23 @@ export const NAV_BAR_LINKS = [
       // },
     ],
   };
+  export const games=[{
+    Game_name:'ludo',
+    img:'./27.png'
+  },
+  {
+    Game_name:'ludo',
+    img:'./27.png'
+  },{
+    Game_name:'ludo',
+    img:'./27.png'
+  },{
+    Game_name:'ludo',
+    img:'./27.png'
+  },{
+    Game_name:'ludo',
+    img:'./27.png'
+  },{
+    Game_name:'ludo',
+    img:'./27.png'
+  },]
