@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed z-[100] top-4 w-full">
-      <nav className="h-20 px-32 flexBetween rounded-3xl  nav text-white font-bold transition-all ">
+      <nav className="h-20 px-32 flexBetween rounded-3xl mx-auto nav text-white font-bold transition-all ">
         {" "}
         <a href="#hero">
           <img src="https://polygon-blockchain.vercel.app/assets/icon/logo-1.png" className="h-20 filter drop-shadow-xl" alt="" />
