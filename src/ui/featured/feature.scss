@@ -1,86 +1,111 @@
+$background-color_1: rgba(0, 0, 0, 0.2);
+
+#featured {
+  backdrop-filter: blur(70px);
+  background: rgba(0, 0, 0, 0.272);
+  z-index: 1;
+  &::before {
+    content: "";
+    z-index: -10;
+    position: absolute;
+    height: 100%;
+    background: url("/bg.png");
+    width: 100%;
+    inset: 0;
+    background-repeat: no-repeat;    
+    background-size: cover;
+  }
+}
 .hero-video-product-page {
-        z-index: 2;
-        width: 788px;
-        height: 554px;
-        border-radius: 24px;
-        margin-top: 7.5rem;
-        margin-bottom: 7.5rem;
-        position: absolute;
-        top: 0%;
-        bottom: 0%;
-        left: auto;
-        right: 0%;
-        overflow: hidden;
-        box-shadow: 0 8px 10px rgba(0,0,0,.24);
-    }
-    .overlay {
-        background-color: rgba(0,0,0,.2);
-        position: absolute;
-        top: 0%;
-        bottom: 0%;
-        left: 0%;
-        right: 0%;
-    }
-    .games-main-img-inner {
-        z-index: 20;
-        position: absolute;
-        top: auto;
-        bottom: 1.25rem;
-        left: 1.25rem;
-        right: 1.25rem;
-    }
-    .games-main-img-content {
-        justify-content: space-between;
-        align-items: flex-end;
-        display: flex;
-    }
-    
-    .games-main-img-logo {
-        width: auto;
-        height: 80px;
-    }
-    .w-embed:before, .w-embed:after {
-        content: " ";
-        grid-area: 1/1/2/2;
-        display: table;
-    }
-    .w-background-video>video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: -100;
-        background-position: 50%;
-        background-size: cover;
-        margin: auto;
-        position: absolute;
-        top: -100%;
-        bottom: -100%;
-        left: -100%;
-        right: -100%;
-    
-        max-width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 12;
-    }
-    @media screen and (max-width: 991px){
-        .hero-video-product-page.is-game {
-            width: 66vw;
-            height: 34vh;
-            margin-top: 0;
-            display: block;
-            top: auto;
-            bottom: 3rem;
-            left: 50%;
-            right: 0%;
-            transform: translate(-50%);
-        }}
-        .hero-video-product-page.is-game {
-            height: 57vh;
-            margin-top: 0;
-            margin-bottom: 0;
-            top: 5vh;
-        }
-        @media screen and (max-width: 991px){
-        .hero-video-product-page {
-            display: none;
-        }}
+  z-index: 1;
+  width: 788px;
+  height: 554px;
+  border-radius: 24px;
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+  overflow: hidden;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.24);
+}
+.overlay {
+  background-color: $background-color_1;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+.games-main-img-inner {
+  z-index: 20;
+  position: absolute;
+  top: auto;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  right: 1.25rem;
+}
+.games-main-img-content {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+}
+.games-main-img-logo {
+  width: auto;
+  height: 80px;
+}
+.w-embed {
+  &:before {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+  }
+  &:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+  }
+}
+.w-background-video {
+  > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+    background-position: 50%;
+    background-size: cover;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 12;
+  }
+}
+.hero-video-product-page.is-game {
+  height: 57vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 5vh;
+}
+@media screen and (max-width: 991px) {
+  .hero-video-product-page.is-game {
+    width: 66vw;
+    height: 34vh;
+    margin-top: 0;
+    display: block;
+    top: auto;
+    bottom: 3rem;
+    left: 50%;
+    right: 0%;
+    transform: translate(-50%);
+  }
+  .hero-video-product-page {
+    display: none;
+  }
+}
