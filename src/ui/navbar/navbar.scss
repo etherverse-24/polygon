@@ -58,16 +58,16 @@
   /* ********************************hamburger icon****************** */
   .hamburger {
     margin-left: 10px;
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
     position: relative;
     display: none;
     cursor: pointer;
     .bar {
       position: absolute;
-      height: 5px;
+      height: 3px;
       width: 100%;
-      background: #d4cfcf;
+      background: #d4cfcf98;
       transition: all 0.3s;
 
       &.middle-bar {
@@ -93,12 +93,12 @@
     z-index: 2;
     animation: rotateHamburger 0.5s linear 0s forwards;
     .bar {
-      background: #fff;
+      background: #d4cfcf98;
       &.bottom-bar {
-        transform: translateY(-13px) rotate(-45deg);
+        transform: translateY(-14px) rotate(-45deg);
       }
       &.top-bar {
-        transform: translateY(12px) rotate(45deg);
+        transform: translateY(4px) rotate(45deg);
       }
       &.middle-bar {
         width: 0;
@@ -125,6 +125,7 @@
 
 @media (max-width: 1024px) {
   .nav {
+    top: 0;
     img{
       margin-left: -1.5rem;
     }
