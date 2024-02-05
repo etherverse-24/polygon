@@ -1,6 +1,6 @@
 export const NAV_BAR_LINKS = [
-    { title: "Home", link: "/home" },
-    { title: "About", link: "/about" },
+    { title: "Home", link: "#hero" },
+    { title: "Games", link: "#games" },
     { title: "NFT Pass", link: "/pass" },
     // { title: "Tokenomics", link: "/tokenomics" },
     // { title: "RoadMap", link: "/roadmap" },
@@ -26,35 +26,58 @@ export const NAV_BAR_LINKS = [
       // },
     ],
   };
+  export const latest_games = [
+    {
+      img: "./27.png",
+      Game_name: "Ludo",
+      des: "Ludo is good",
+    },
+    {
+      img: "./27.png",
+      Game_name: "Ludo",
+      des: "Ludo is good",
+    },
+    {
+      img: "./27.png",
+      Game_name: "Ludo",
+      des: "Ludo is good",
+    },
+    {
+      img: "./27.png",
+      Game_name: "Ludo",
+      des: "Ludo is good",
+    },
+  
+  ];
   export const games=[{
     Game_name:'Ludo',
     img:'./27.png',
-    des:'Ludo is goodadddddddddddddddddddrakkkk'
+    des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Ludo',
     img:'./27.png',
-    des:'Ludo is goodadddddddddddddddddddrakkkk'
+    des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Ludo',
     img:'./27.png',
-    des:'Ludo is goodadddddddddddddddddddrakkkk'
+    des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Ludo',
     img:'./27.png',
-    des:'Ludo is goodadddddddddddddddddddrakkkk'
+    des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Ludo',
     img:'./27.png',
-    des:'Ludo is goodadddddddddddddddddddrakkkk'
+    des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Ludo',
     img:'./27.png',
-    des:'Ludo is goodadddddddddddddddddddrakkkk'
+    des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   
  ]
