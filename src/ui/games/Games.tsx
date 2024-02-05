@@ -19,7 +19,9 @@ const Games = () => {
           spaceBetween={10}
           slidesPerView={6}
           effect="fade"
-          mousewheel={true}
+          mousewheel= {{
+            releaseOnEdges: true,
+          }}
           navigation={{
             nextEl: null, // Hide next arrow
             prevEl: null, // Hide previous arrow
