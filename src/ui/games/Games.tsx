@@ -49,8 +49,8 @@ const Games = () => {
           <div className="flex">
             {games.map((item) => (
               <SwiperSlide>
-                <div style={{ width: 300, marginRight: 16 }}>
-                  <div className="cat-slide_holder h-[320px] lg:h-[250px]">
+                <div style={{ width: 320, marginRight: 10 }}>
+                  <div className="cat-slide_holder h-[320px] lg:h-[350px]">
                     <div>
                       <h3 className="h_24 text-white">{item.Game_name}</h3>
                     </div>
