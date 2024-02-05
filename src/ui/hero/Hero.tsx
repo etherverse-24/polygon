@@ -33,7 +33,7 @@ const Hero = () => {
             className="hero_bg-image is-3"
           />
         </div>
-        <div className="pt-60 w-full flex-col gap-8 flexCenter relative z-10">
+        <div className="pt-64 w-full flex-col gap-8 flexCenter relative z-10">
           <h1 className="text-white text-center text-4xl lg:text-5xl lg:font-semibold tracking-wide ">
             PLAY 2 EARN BLOCKCHAIN UNITY GAMES!
           </h1>
