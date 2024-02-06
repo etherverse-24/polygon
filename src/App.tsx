@@ -12,8 +12,8 @@ function App() {
  <>
  <Navbar/>
  <Hero/>
- <Latestgames/>
  <Featured/>
+ <Latestgames/>
  <Game/>
  <Footer/>
  </>

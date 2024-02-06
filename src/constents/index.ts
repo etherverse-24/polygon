@@ -28,24 +28,20 @@ export const NAV_BAR_LINKS = [
   };
   export const latest_games = [
     {
-      img: "./27.png",
-      Game_name: "Ludo",
-      des: "Ludo is good",
+      img: "./6.png",
+      Game_name: "Fortune Wheel",
     },
     {
-      img: "./27.png",
-      Game_name: "Ludo",
-      des: "Ludo is good",
+      img: "./4.png",
+      Game_name: "Solitaire",
     },
     {
-      img: "./27.png",
-      Game_name: "Ludo",
-      des: "Ludo is good",
+      img: "./10.png",
+      Game_name: "Poker",
     },
     {
-      img: "./27.png",
-      Game_name: "Ludo",
-      des: "Ludo is good",
+      img: "./8.png",
+      Game_name: "Real Estate",
     },
   
   ];
@@ -79,5 +75,5 @@ export const NAV_BAR_LINKS = [
     img:'./27.png',
     des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
-  
+
  ]
