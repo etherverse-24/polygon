@@ -2,13 +2,13 @@ import "./hero.scss";
 const Hero = () => {
   return (
     <section id="hero" className="px-1 lg:p-2  pb-0 relative overflow-hidden">
-      <img
+      {/* <img
         src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0706e77100ec0ebec81c_Hero%20section%20background.webp"
         className="section_img-overflow"
         alt=""
-      />
+      /> */}
       <div className="hero_bg-gradient z-[2]"></div>
-      <div className="min-h-lvh relative lg:rounded-[40px] bg-[#080808] overflow-hidden p-4">
+      <div className="min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
         <div className="container_bg z-0">
           <img
             src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001.webp"
@@ -26,7 +26,6 @@ const Hero = () => {
           />
           <img
             src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201.webp"
-            // src="/Header.png"
             loading="eager"
             sizes="(max-width: 479px) 100vw, 92vw"
             srcSet="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201-p-500.webp 500w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201-p-800.webp 800w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201.webp 1203w"

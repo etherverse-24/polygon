@@ -10,14 +10,14 @@ export const NAV_BAR_LINKS = [
     Social: [
       {
         heading: "Socials",
-        link: "https://twitter.com/bitport_xyz",
+        link: "javaScript:;",
         title: "Twitter",
       },
-      { heading: "Resources", link: "https://t.me/bitport_erc", title: "Telegram" },
+      { heading: "Resources", link: "javaScript:;", title: "Telegram" },
     ],
     Social_head: [
       {
-        link: "https://bitport.gitbook.io/whitepaper/advantages",
+        link: "javaScript:;",
         title: "Docs",
       },
       // {

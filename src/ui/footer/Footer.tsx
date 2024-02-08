@@ -5,8 +5,8 @@ import "./footer.scss";
 function Footer() {
   return (
     <>
-      <section id="footer">
-        <div className="left__content">
+      <section id="footer" className="border-t">
+        <div className="left__content ">
           <a href="mailto:contact@polygon.xyz">contact@polygon.xyz</a>
         </div>
         <div className="center__content">
@@ -35,13 +35,6 @@ function Footer() {
               </li>
             ))}
           </ul>
-        </div>
-        <div className="right__content">
-          <div id="newsletter">
-            <a href="https://t.me/bitport_erc" target="_blank">
-              Join Community
-            </a>
-          </div>
         </div>
       </section>
       <div className="last__footer">
