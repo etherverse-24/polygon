@@ -128,10 +128,9 @@
 
 @media (max-width: 1024px) {
   .nav {
+    width: 100vw;
     top: 0;
-    img{
-      margin-left: -1.5rem;
-    }
+ 
     .hamburger {
       display: block;
     }
