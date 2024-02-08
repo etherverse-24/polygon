@@ -52,7 +52,7 @@ export const NAV_BAR_LINKS = [
   },
   {
     Game_name:'MetadogeUnity',
-    img:'./metadoge.jpeg',
+    img:'./metadoge.png',
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
