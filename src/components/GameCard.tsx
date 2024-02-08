@@ -10,7 +10,7 @@ interface GameCardProps {
 
 const GameCard:FC<GameCardProps> = ({item}) => {
   return (
-    <div className="card lg:h-[350px] w-full">
+    <div className="card  w-[300px] h-[400px] mx-auto">
       <img
         src={item.img}
         loading="lazy"
