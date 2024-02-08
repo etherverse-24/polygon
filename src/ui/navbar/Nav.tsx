@@ -13,7 +13,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="fixed z-[100] top-4 w-full">
+    <header className="fixed z-[100] lg:top-4 w-full">
       <nav className="h-20 lg:px-32 flexBetween rounded-3xl mx-auto nav text-white font-bold transition-all ">
         {" "}
         <a href="#hero">
