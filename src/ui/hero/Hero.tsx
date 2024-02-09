@@ -17,7 +17,7 @@ const Hero = () => {
             srcSet="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001-p-500.png 500w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001-p-800.webp 800w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001.webp 1021w"
             className="hero_bg-image"
           />
-          <img
+          {/* <img
             src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c08906102d36e42281d15_Home%20Hero%20Bg%2003.webp"
             alt=""
             sizes="(max-width: 767px) 100vw, 68vw"
@@ -31,7 +31,7 @@ const Hero = () => {
             srcSet="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201-p-500.webp 500w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201-p-800.webp 800w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201.webp 1203w"
             alt=""
             className="hero_bg-image is-3"
-          />
+          /> */}
         </div>
         <div className="pt-64 w-full flex-col gap-8 flexCenter relative z-10">
           <h1 className="text-white text-center text-4xl lg:text-5xl lg:font-semibold tracking-wide ">
@@ -41,8 +41,14 @@ const Hero = () => {
             Multichain Metaverse Gaming platform with Account abstraction with
             Fusion of Bitcoin and EVM network
           </h4>
+          <div className="flex gap-4">
           <div className="w-full btn lg:w-auto flexCenter p-8 py-3 text-white  rounded-lg ">
             <a href="" className="mx-auto w-max">Play Now</a>
+          </div>
+          <div className="w-full border-2 lg:w-auto flexCenter p-8 py-3 text-white  rounded-lg ">
+            <a href="" className="mx-auto w-max">Explore</a>
+          </div>
+
           </div>
         </div>
       </div>
