@@ -1,16 +1,22 @@
 import { FC } from "react";
-import "./gamecard.scss"
+import "./gamecard.scss";
 interface GameCardProps {
-    item: {
-        img: string;
-        Game_name: string;
-        des?: string;
-    };
-    }
+  item: {
+    img: string;
+    Game_name: string;
+    des?: string;
+  };
+  comingSoon?: boolean;
+}
 
-const GameCard:FC<GameCardProps> = ({item}) => {
+const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
   return (
-    <div className="card  w-[300px] h-[400px] mx-auto">
+    <div className="card  w-[300px] h-[400px] mx-auto relative">
+      {comingSoon && (
+        <div className="absolute h-6 w-28 bg-red-200 z-20 right-0 rotate-45 translate-y-5 text-xs text-center flexCenter translate-x-6">
+          Coming Soon
+        </div>
+      )}
       <img
         src={item.img}
         loading="lazy"
