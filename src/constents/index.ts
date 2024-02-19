@@ -140,4 +140,16 @@ export const NAV_BAR_LINKS = [
     coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
+  {
+    Game_name:'Bubble Shooter',
+    img:'./bubble_shooter.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Ludo',
+    img:'./ludo.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
  ]
