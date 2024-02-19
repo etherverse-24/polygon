@@ -48,61 +48,73 @@ export const NAV_BAR_LINKS = [
   export const games=[{
     Game_name:'Slot Machine',
     img:'./slot_machnie.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Poker',
     img:'./poker.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'MetadogeUnity',
     img:'./metadoge.png',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Real Estate',
     img:'./real_estate.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Fortune Wheel',
     img:'./fortune_wheel.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Black Jack',
     img:'./black_jack.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Solitaire',
     img:'./solitaire.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Killer Boy',
     img:'./killer_boy.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Falling Block',
     img:'./faling_block.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Helix',
     img:'./helix.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Carrom',
     img:'./carrom.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'flappy Disk',
     img:'./flappy_disk.jpg',
+    coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
 
