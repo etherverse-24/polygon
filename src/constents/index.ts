@@ -62,7 +62,7 @@ export const NAV_BAR_LINKS = [
   },
   {
     Game_name:'Real Estate',
-    img:'./1.png',
+    img:'./real_estate.jpg',
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
@@ -88,6 +88,21 @@ export const NAV_BAR_LINKS = [
   {
     Game_name:'Falling Block',
     img:'./faling_block.jpg',
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Helix',
+    img:'./helix.jpg',
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Carrom',
+    img:'./carrom.jpg',
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'flappy Disk',
+    img:'./flappy_disk.jpg',
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
 
