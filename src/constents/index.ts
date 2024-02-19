@@ -47,7 +47,12 @@ export const NAV_BAR_LINKS = [
   ];
   export const games=[{
     Game_name:'Slot Machine',
-    img:'./7.png',
+    img:'./slot_machnie.jpg',
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Poker',
+    img:'./poker.jpg',
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
@@ -62,19 +67,28 @@ export const NAV_BAR_LINKS = [
   },
   {
     Game_name:'Fortune Wheel',
-    img:'./5.png',
+    img:'./fortune_wheel.jpg',
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
-    Game_name:'Poker',
-    img:'./10.png',
+    Game_name:'Black Jack',
+    img:'./black_jack.jpg',
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Solitaire',
-    img:'./4.png',
+    img:'./solitaire.jpg',
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
- 
+  {
+    Game_name:'Killer Boy',
+    img:'./killer_boy.jpg',
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Falling Block',
+    img:'./faling_block.jpg',
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
 
  ]
