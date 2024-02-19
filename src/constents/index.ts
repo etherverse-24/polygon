@@ -59,7 +59,7 @@ export const NAV_BAR_LINKS = [
   },
   {
     Game_name:'MetadogeUnity',
-    img:'./metadoge.png',
+    img:'./metadoge.jpg',
     coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
@@ -117,5 +117,27 @@ export const NAV_BAR_LINKS = [
     coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
-
+  {
+    Game_name:'Galaxy Battle',
+    img:'./galaxy_battle.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Jump dude',
+    img:'./jump_dude.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Merge Number',
+    img:'./merge_number.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },{
+    Game_name:'Spin Rush',
+    img:'./spin_rush.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
  ]
