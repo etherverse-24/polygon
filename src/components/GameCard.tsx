@@ -16,7 +16,8 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
         // <div className="absolute h-6 w-28 bg-red-200 z-20 right-0 rotate-45 translate-y-5 flexCenter translate-x-6">
         <div className="absolute z-20 right-0 rotate-45 -translate-y-9 -translate-x-9 flexCenter">
           <div className="badge-wrapper ">
-            <div className="badge badge-shiny badge-gold">Coming Soon</div></div>
+            <div className="badge badge-shiny badge-gold">Coming Soon</div>
+          </div>
           {/* </div> */}
         </div>
       )}
