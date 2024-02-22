@@ -6,6 +6,7 @@ import Latestgames from './ui/latestgames/Latestgames'
 import Hero from './ui/hero/Hero'
 import Navbar from './ui/navbar/Nav'
 import GameSlider from './ui/gameslider/GameSlider'
+import Slider from './ui/slider/Slider'
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
  <Hero/>
  <Featured/>
  <Latestgames/>
+ <Slider/>
  <GameSlider/>
  <Game/>
  <Footer/>
