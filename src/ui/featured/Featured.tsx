@@ -9,11 +9,11 @@ const Featured = () => {
       <div className="test"></div>
       {/* <img src="/bg.png" className="absolute w-full h-full opacity-50 -z-10" alt="" /> */}
       <div className="relative z-10 lg:w-[85%] mx-auto">
-        <div className="pt-10 lg:pt-32 lg:w-1/2 ">
+        <div className="pt-10 lg:pt-32 lg:w-1/3 ">
           <h1 className="text-4xl text-center lg:text-left">
             Our Featured Game
           </h1>
-          <h1 className="text-4xl lg:text-7xl pt-10 text-center lg:text-left">
+          <h1 className="text-4xl lg:text-6xl pt-10 text-center lg:text-left">
             MetaDogeUnity
           </h1>
           <h2 className="text-lg pt-10 text-center lg:text-left">
