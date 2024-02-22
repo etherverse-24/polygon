@@ -10,9 +10,9 @@ const Hero = () => {
         alt=""
       /> */}
       <div className="hero_bg-gradient z-[2]">
-      <video src="./header_vid.mp4" style={{maxWidth:'none'}} muted autoPlay loop></video>
+      <video src="./header_video.mp4" style={{maxWidth:'none'}} className="lg:w-full" muted autoPlay loop></video>
       </div>
-      <div className="min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
+      <div className="lg:min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
         <div className="container_bg z-0">
           {/* <img
             src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001.webp"

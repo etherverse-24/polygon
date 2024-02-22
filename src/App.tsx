@@ -10,6 +10,7 @@ import Slider from './ui/slider/Slider'
 import { useEffect } from 'react'
 import Aos from 'aos';  
 import "aos/dist/aos.css";
+import Slider2 from './ui/slider2/slider2'
 function App() {
 useEffect(() => {
   Aos.init({duration: 1000});
@@ -22,9 +23,10 @@ useEffect(() => {
  <Hero/>
  <Featured/>
  <Latestgames/>
- <Slider/>
+ <Slider2/>
  <GameSlider/>
  <Game/>
+ <Slider/>
  <Footer/>
  </>
   )
