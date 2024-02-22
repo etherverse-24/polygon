@@ -1,4 +1,5 @@
 .hero_bg-gradient {
+  // background: url('/blocks.gif');
   // background-image: linear-gradient(rgba(10, 10, 10, 0) 20%, #0a0a0a 61%);
   position: absolute;
   top: 0%;
@@ -155,4 +156,11 @@ $color_1: #fff;
       top: 9.4rem;
     }
   }
+}
+.textFix{
+  // border:2px solid #9937b5;
+  color:black;
+  background-color: white;
+  font-weight: 800;
+  cursor: pointer;
 }

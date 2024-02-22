@@ -23,12 +23,12 @@ const GameSlider = () => {
       desc: `Fight the mask, caveman, sharks, spiders, spiky turtles and many other monsters. With the right strategy you will defeat all your enemies in the game!`,
       img:"https://play-lh.googleusercontent.com/JbOyeoXDjtSz-aiCIi53sUfC3q0NWZEPdCJwtsnXUC5UJS-bXhf5n9wbxJ9Mvby5Ag=w240-h480-rw"
     },
-    {
-      video: "./bg1-video.mp4",
-      heading: "  MetaDogeUnity",
-      desc: ` MULTICHAIN METAVERSE AAA GAMEFI PLATFORM THAT COMBINES THE POWER OF ACCOUNT ABSTRACTION AND BITCOIN`,
-      img:''
-    },
+    // {
+    //   video: "./bg1-video.mp4",
+    //   heading: "  MetaDogeUnity",
+    //   desc: ` MULTICHAIN METAVERSE AAA GAMEFI PLATFORM THAT COMBINES THE POWER OF ACCOUNT ABSTRACTION AND BITCOIN`,
+    //   img:''
+    // },
     {
       video: "./4.mp4",
       heading: "Stickman Warrior Fighting Wars",
@@ -116,7 +116,7 @@ const GameSlider = () => {
                     </video>
                   </div>
                 </div>
-              </div>{" "}
+              </div>
             </div>
           </SwiperSlide>
         ))}

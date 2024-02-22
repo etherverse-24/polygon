@@ -28,19 +28,19 @@ export const NAV_BAR_LINKS = [
   };
   export const latest_games = [
     {
-      img: "./6.png",
+      img: "./fortune_wheel.jpg",
       Game_name: "Fortune Wheel",
     },
     {
-      img: "./4.png",
+      img: "./solitaire.jpg",
       Game_name: "Solitaire",
     },
     {
-      img: "./10.png",
+      img: "./poker.jpg",
       Game_name: "Poker",
     },
     {
-      img: "./8.png",
+      img: "./real_estate.jpg",
       Game_name: "Real Estate",
     },
   
