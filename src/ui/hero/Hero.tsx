@@ -1,3 +1,4 @@
+import Button from "../../components/Button";
 import "./hero.scss";
 const Hero = () => {
   return (
@@ -46,9 +47,7 @@ const Hero = () => {
             Fusion of Bitcoin and EVM network
           </h4>
           <div className="flex gap-4">
-          <div className="w-full btn lg:w-auto flexCenter p-8 py-3 text-white  rounded-lg ">
-            <a href="" className="mx-auto w-max">Play Now</a>
-          </div>
+         <Button text="Play Now" />
           <div className="w-full textFix lg:w-auto flexCenter p-8 py-3   rounded-lg ">
             <a href="" className="mx-auto w-max">Explore</a>
           </div>
