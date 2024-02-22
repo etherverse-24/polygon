@@ -63,8 +63,11 @@ body {
 }
 @layer utilities {
   .adrak{
-    perspective: 1000px;  
-    transform: rotate3d(1, 1, 1, 32deg);
+    perspective-origin: right;  
+    transform-origin: right;
+    transform: rotateZ(20deg) rotateX(20deg) rotateY(20deg)
+
+    // transform: rotate3d(1, 1, 1, 32deg);
   }
   .flexCenter {
     @apply flex items-center justify-center;

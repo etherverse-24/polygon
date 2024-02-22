@@ -14,13 +14,13 @@ const Featured = () => {
                 loading="lazy"
                 alt=""
                 className="games-main-img-logo lg:mb-4"/> */}
-          <h1 className="text-4xl text-center lg:text-left">
+          <h1 className="text-4xl text-center lg:text-left" data-aos="fade-up">
             Our Featured Game
           </h1>
-          <h1 className="text-4xl lg:text-6xl pt-10 text-center lg:text-left">
+          <h1 className="text-4xl lg:text-6xl pt-10 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
             MetaDogeUnity
           </h1>
-          <h2 className="text-lg pt-10 text-center lg:text-left">
+          <h2 className="text-lg pt-10 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
             MULTICHAIN METAVERSE AAA GAMEFI PLATFORM THAT COMBINES THE POWER OF
             ACCOUNT ABSTRACTION AND BITCOIN
           </h2>{" "}

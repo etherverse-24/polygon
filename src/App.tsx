@@ -7,8 +7,14 @@ import Hero from './ui/hero/Hero'
 import Navbar from './ui/navbar/Nav'
 import GameSlider from './ui/gameslider/GameSlider'
 import Slider from './ui/slider/Slider'
+import { useEffect } from 'react'
+import Aos from 'aos';  
+import "aos/dist/aos.css";
 function App() {
-
+useEffect(() => {
+  Aos.init({duration: 1000});
+}
+, [])
 
   return (
  <>
