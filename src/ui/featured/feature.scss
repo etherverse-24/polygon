@@ -94,6 +94,11 @@ $background-color_1: rgba(0, 0, 0, 0.2);
   margin-bottom: 0;
   top: 11vh;
 }
+@media (max-width:760px) {
+ .games-main-img-logo {
+    height: 40px !important;
+  }
+}
 @media screen and (max-width: 991px) {
   .hero-video-product-page.is-game {
     width: 88vw;
@@ -109,5 +114,6 @@ $background-color_1: rgba(0, 0, 0, 0.2);
   .hero-video-product-page {
     display: none;
   }
+ 
 }
 
