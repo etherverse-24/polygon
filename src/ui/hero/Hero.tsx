@@ -14,28 +14,6 @@ const Hero = () => {
       </div>
       <div className="lg:min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
         <div className="container_bg z-0">
-          {/* <img
-            src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001.webp"
-            alt=""
-            sizes="(max-width: 767px) 100vw, 62vw"
-            srcSet="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001-p-500.png 500w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001-p-800.webp 800w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c0890d7f4a89b66aedea9_Home%20Hero%20Bg%2001.webp 1021w"
-            className="hero_bg-image"
-          /> */}
-          {/* <img
-            src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c08906102d36e42281d15_Home%20Hero%20Bg%2003.webp"
-            alt=""
-            sizes="(max-width: 767px) 100vw, 68vw"
-            srcSet="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c08906102d36e42281d15_Home%20Hero%20Bg%2003-p-500.webp 500w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c08906102d36e42281d15_Home%20Hero%20Bg%2003-p-800.webp 800w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/659c08906102d36e42281d15_Home%20Hero%20Bg%2003.webp 1032w"
-            className="hero_bg-image is-2"
-          />
-          <img
-            src="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201.webp"
-            loading="eager"
-            sizes="(max-width: 479px) 100vw, 92vw"
-            srcSet="https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201-p-500.webp 500w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201-p-800.webp 800w, https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65ae7d564c5383698df27957_Glass%20shield%404-1080x1080%201.webp 1203w"
-            alt=""
-            className="hero_bg-image is-3"
-          /> */}
         </div>
         <div className="lg:pt-64 pt-40 w-full flex-col gap-8 flexCenter relative z-10">
       

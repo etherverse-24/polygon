@@ -15,12 +15,12 @@ const Slider2 = () => {
     },
   ];
   return (
-    <section id="" className="min-h-[80vh] z-10 text-white relative">
+    <section id="" className="min-h-[80vh] z-10 text-white relative bg-black">
       
         {slides.map((item, i) => (
           <div
             key={i}
-            className=" h-full min-h-[80vh] flex flex-wrap lg:px-20 bg-black"
+            className=" h-full min-h-[80vh] lg:w-[85%] mx-auto flex flex-wrap "
           >
              <div className="lg:w-1/2 lg:pt-32 ">
             <div className="text-4xl mb-10 font-bold">{item.heading}</div>
