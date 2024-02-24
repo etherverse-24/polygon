@@ -40,8 +40,11 @@ const Hero = () => {
             Fusion of Bitcoin and EVM network
           </h4>
           <div className="flex gap-4">
+            <div data-aos="fade-up">
+
             <Button href="#games_section" text="Play Now" />
-            <div className="w-full textFix lg:w-auto flexCenter p-8 py-3   rounded-lg ">
+            </div>
+            <div className="w-full textFix lg:w-auto flexCenter p-8 py-3   rounded-lg " data-aos="fade-up" data-aos-delay="200">
               <a href="" className="mx-auto w-max">
                 Docs
               </a>

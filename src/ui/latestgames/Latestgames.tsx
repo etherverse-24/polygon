@@ -14,7 +14,7 @@ const Latestgames = () => {
       <Heading shadow text="Latest Games"  className="text-center" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-3 pt-10 " >
         {latest_games.map((item, i) => (
-          <GameCard item={item} key={i} />
+          <GameCard item={item} key={i} i={i} />
         ))}
       </div>
     </section>

@@ -15,7 +15,7 @@ const Slider2: FC<Slides> = ({ heading, desc, video }) => {
           <Heading text={heading} className="mb-10 text-gray-400"/>
           {/* <div className="text-4xl mb-10 font-bold">{heading}</div> */}
           <div className="text-lg"  data-aos="fade-up" data-aos-delay="100">{desc}</div>
-          <div className="pt-10 lg:w-1/3 w-2/3 mx-auto lg:mr-auto lg:ml-0 ">
+          <div className="pt-10 lg:w-1/3 w-2/3 mx-auto lg:mr-auto lg:ml-0 "data-aos="flip-down">
             <Button text={"View Game"} />
           </div>
         </div>
