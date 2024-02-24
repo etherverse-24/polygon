@@ -8,11 +8,12 @@ interface GameCardProps {
     link?: string;
   };
   comingSoon?: boolean;
+  i?: number;
 }
 
-const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
+const GameCard: FC<GameCardProps> = ({ item, comingSoon,i }) => {
   return (
-    <div className="card w-[310px]  lg:w-[300px] h-[400px] mx-auto relative bg-[#0c0c0c] " data-aos="zoom-in">
+    <div className="card w-[310px]  lg:w-[300px] h-[400px] mx-auto relative bg-[#0c0c0c] " data-aos="zoom-in" data-aos-delay={`${i&&i*50}`}>
       <div className="absolute w-full h-full inset-0 z-10 shadow"></div>
       {comingSoon && (
         // <div className="absolute h-6 w-28 bg-red-200 z-20 right-0 rotate-45 translate-y-5 flexCenter translate-x-6">
@@ -37,7 +38,7 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
           </div>
         </div>
       </div>
-      <div className="z-20 bottom-9 flexCenter w-full absolute">
+      <div className="z-20 bottom-9 flexCenter w-full absolute" data-aos="zoom-out" >
         <button
           disabled={comingSoon}
           className={`flexCenter  px-6 w-52  text-white bg-[rgba(247,247,247,.1)] p-4 rounded-3xl shadow

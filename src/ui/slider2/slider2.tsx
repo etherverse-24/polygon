@@ -19,7 +19,7 @@ const Slider2: FC<Slides> = ({ heading, desc, video }) => {
             <Button text={"View Game"} />
           </div>
         </div>
-        <div className="lg:w-1/2 max-h-[550px] flexCenter  ">
+        <div className="lg:w-1/2 max-h-[550px] flexCenter  " data-aos="zoom-in">
           <video
             src={video}
             autoPlay
