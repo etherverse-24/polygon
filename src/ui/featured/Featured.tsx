@@ -14,20 +14,21 @@ const Featured = () => {
                 loading="lazy"
                 alt=""
                 className="games-main-img-logo lg:mb-4"/> */}
-          <h1 className="text-4xl text-center lg:text-left" data-aos="fade-up">
+          <h1 className="text-[40px] text-center lg:text-left" data-aos="fade-up">
             Our Featured Game
           </h1>
-          <h1 className="text-4xl lg:text-6xl pt-10 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
+          <h1 className="text-3xl text-gray-400 pt-5 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
             MetaDogeUnity
           </h1>
-          <h2 className="text-lg pt-10 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
+          <h2 className="text-lg pt-10 text-gray-600 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
             MULTICHAIN METAVERSE AAA GAMEFI PLATFORM THAT COMBINES THE POWER OF
             ACCOUNT ABSTRACTION AND BITCOIN
           </h2>{" "}
         </div>
         <div className="hero-video-product-page is-game">
+          <video src="./metadoge.mp4" muted autoPlay loop></video>
           <div className="overlay" />
-          <div className="games-main-img-inner">
+          {/* <div className="games-main-img-inner">
             <div className="games-main-img-content">
               <img
                 src="https://www.metadogeunity.in/hero.png"
@@ -42,8 +43,8 @@ const Featured = () => {
                 View game
               </a>
             </div>
-          </div>
-          <div className="img-cover w-embed">
+          </div> */}
+          {/* <div className="img-cover w-embed">
             <div
               style={{ width: "100%", height: "100%" }}
               className="w-background-video w-background-video-atom"
@@ -63,10 +64,10 @@ const Featured = () => {
                 data-wf-ignore="true"
                 data-object-fit="cover"
               >
-                <source src="./bg1-video.mp4" data-wf-ignore="true" />
+                <source src="./metadoge.mp4" data-wf-ignore="true" />
               </video>
             </div>
-          </div>
+          </div> */}
         </div>{" "}
       </div>
     </section>

@@ -8,7 +8,7 @@ interface Slides {
 }
 const Slider2: FC<Slides> = ({ heading, desc, video }) => {
   return (
-    <section id="" className="min-h-[80vh] z-10 text-white relative bg-black">
+    <section id="" className="min-h-[80vh] z-10 text-white relative uuu">
       <div className=" h-full min-h-[80vh] lg:w-[85%] p-10 lg:p-0 mx-auto flex flex-wrap ">
         <div className="lg:w-1/2 lg:pt-32 text-center lg:text-left">
           <div className="text-4xl mb-10 font-bold">{heading}</div>
