@@ -10,9 +10,9 @@ const Heading: FC<headingProps> = ({ text, className, shadow }) => {
   return (
     <h1
       className={`main-heading ${
-        shadow && "text-white"
-      } text-5xl font-semibold uppercase ${className} `}
-      style={{ textShadow: `${shadow && " 0 0 46px white"}` }}
+        shadow && "text-gray-200"
+      } lg:text-5xl text-4xl font-semibold uppercase ${className} `}
+      style={{ textShadow: `${shadow && " 0 0 30px white"}` }}
     >
       {text}
     </h1>
