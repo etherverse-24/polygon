@@ -19,7 +19,7 @@ const Featured = () => {
             Our Featured Game
           </h1>
           <h1 className="text-3xl text-gray-400 pt-5 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
-          <Heading text="MetadogeUnity"/>
+          <Heading text="MetadogeUnity" className="text-gray-400"/>
           </h1>
           <h2 className="text-lg pt-10 text-gray-600 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
             MULTICHAIN METAVERSE AAA GAMEFI PLATFORM THAT COMBINES THE POWER OF
@@ -28,7 +28,7 @@ const Featured = () => {
         </div>
         <div className="hero-video-product-page is-game">
           <video src="./metadoge.mp4" muted autoPlay loop></video>
-          <div className="overlay" />
+          <div className="overlay1" />
           {/* <div className="games-main-img-inner">
             <div className="games-main-img-content">
               <img

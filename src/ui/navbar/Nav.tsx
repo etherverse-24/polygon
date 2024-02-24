@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed z-[100] lg:top-4 w-full">
-      <nav className="h-20 lg:px-32 flexCenter rounded-3xl mx-auto nav text-white font-bold transition-all ">
+      <nav className="h-16 lg:px-32 flexCenter rounded-lg mx-auto nav text-white font-bold transition-all ">
         {" "}
         {/* <a href="#hero">
           <img src="https://polygon-blockchain.vercel.app/assets/icon/logo-1.png" className=" filter drop-shadow-xl" alt="" />
@@ -34,7 +34,7 @@ const Navbar = () => {
             <a
               onClick={() => setIsMenuOpen(false)}
               className="linkItem"
-              href="https://bitport.gitbook.io/whitepaper/advantages"
+              // href="https://bitport.gitbook.io/whitepaper/advantages"
               target="_blank"
             >
               Doc

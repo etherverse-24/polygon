@@ -21,7 +21,7 @@ $background-color_1: rgba(0, 0, 0, 0.2);
   z-index: -1;
   width: 788px;
   height: 554px;
-  border-radius: 24px;
+  // border-radius: 24px;
   margin-top: 7.5rem;
   margin-bottom: 7.5rem;
   position: absolute;
@@ -30,10 +30,10 @@ $background-color_1: rgba(0, 0, 0, 0.2);
   left: auto;
   right: 0%;
   overflow: hidden;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.24);
+  // box-shadow: 0 8px 10px rgba(225, 25, 25, 0.24);
 }
-.overlay {
-  background-color: $background-color_1;
+.overlay1 {
+  // background-color: $background-color_1;
   position: absolute;
   top: 0%;
   bottom: 0%;
