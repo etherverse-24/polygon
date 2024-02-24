@@ -40,12 +40,8 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
       <div className="z-20 bottom-9 flexCenter w-full absolute">
         <button
           disabled={comingSoon}
-          onClick={() => {
-            console.log("clicked");
-          }}
-          className={`flexCenter  px-6 w-44  text-white bg-[rgba(247,247,247,.1)] p-4 rounded-3xl ${
-            comingSoon ? "cursor-not-allowed" : "cursor-pointer"
-          } cursor-pointer`}
+          className={`flexCenter  px-6 w-44  text-white bg-[rgba(247,247,247,.1)] p-4 rounded-3xl 
+          ${comingSoon ? "cursor-not-allowed" : "cursor-pointer"} `}
         >
           {comingSoon ? (
             <p>Coming Soon...</p>
