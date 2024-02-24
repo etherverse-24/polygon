@@ -23,7 +23,7 @@ function App() {
       <Latestgames />
       <Slider2
         video="./game3.mp4"
-        heading="The Jewel Hunt"
+        heading="Space Fighter"
         desc="Fight the mask, caveman, sharks, spiders, spiky turtles and many other monsters. With the right strategy you will defeat all your enemies in the game!"
       />
       <GameSlider />

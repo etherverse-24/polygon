@@ -10,7 +10,7 @@ const Hero = () => {
         alt=""
       /> */}
       <div className="hero_bg-gradient z-[2]">
-      <video src="./header_video.mp4" style={{maxWidth:'none'}} className="lg:w-full" muted autoPlay loop></video>
+      <video src="./backg_header.mp4" style={{maxWidth:'none'}} className="lg:w-full" muted autoPlay loop></video>
       </div>
       <div className="lg:min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
         <div className="container_bg z-0">
@@ -20,7 +20,7 @@ const Hero = () => {
           <h1 className="text-white text-center text-4xl lg:text-6xl font-semibold tracking-wide ">
             PLAY 2 EARN BLOCKCHAIN UNITY GAMES!
           </h1>
-          <h4 className="text-white  lg:w-2/3 text-center text-xl lg:text-3xl ">
+          <h4 className="text-gray-400  lg:w-2/3 text-center text-xl lg:text-3xl ">
             Multichain Metaverse Gaming platform with Account abstraction with
             Fusion of Bitcoin and EVM network
           </h4>
