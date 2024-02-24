@@ -12,7 +12,7 @@ interface GameCardProps {
 
 const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
   return (
-    <div className="card w-[350px]  lg:w-[300px] h-[400px] mx-auto relative bg-[#0c0c0c] ">
+    <div className="card w-[350px]  lg:w-[300px] h-[400px] mx-auto relative bg-[#0c0c0c] " data-aos="zoom-in">
       <div className="absolute w-full h-full inset-0 z-10 shadow"></div>
       {comingSoon && (
         // <div className="absolute h-6 w-28 bg-red-200 z-20 right-0 rotate-45 translate-y-5 flexCenter translate-x-6">

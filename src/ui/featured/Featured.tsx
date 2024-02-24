@@ -27,7 +27,7 @@ const Featured = () => {
           </h2>{" "}
         </div>
         <div className="hero-video-product-page is-game">
-          <video src="./metadoge.mp4" muted autoPlay loop></video>
+          <video src="./meta.mp4" muted autoPlay loop></video>
           <div className="overlay1" />
           {/* <div className="games-main-img-inner">
             <div className="games-main-img-content">

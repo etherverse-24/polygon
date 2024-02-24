@@ -13,6 +13,7 @@ const Heading: FC<headingProps> = ({ text, className, shadow }) => {
         shadow && "text-gray-200"
       } lg:text-5xl text-4xl font-semibold uppercase ${className} `}
       style={{ textShadow: `${shadow && " 0 0 30px white"}` }}
+      data-aos="fade-up"
     >
       {text}
     </h1>
