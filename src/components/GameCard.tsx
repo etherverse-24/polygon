@@ -12,7 +12,7 @@ interface GameCardProps {
 const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
   return (
     <div className="card w-[350px]  lg:w-[300px] h-[400px] mx-auto relative bg-[#0c0c0c] ">
-      <div className="absolute w-full h-full inset-0 z-20 shadow"></div>
+      <div className="absolute w-full h-full inset-0 z-10 shadow"></div>
       {comingSoon && (
         // <div className="absolute h-6 w-28 bg-red-200 z-20 right-0 rotate-45 translate-y-5 flexCenter translate-x-6">
         <div className="absolute z-20 right-0 rotate-45 -translate-y-9 -translate-x-9 flexCenter">
@@ -34,10 +34,18 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
           <div className="py-2">
             <div className="text-white">{item.des}</div>
           </div>
-          <div className="flexCenter text-white bg-[rgba(247,247,247,.1)] p-4 rounded-3xl cursor-pointer">
-            <div>{item.Game_name}</div>
-          </div>
         </div>
+      </div>
+      <div className="z-20 bottom-9 flexCenter w-full absolute">
+        <button
+          disabled={comingSoon}
+          onClick={() => {
+            console.log("clicked");
+          }}
+          className="flexCenter  px-12 max-w-44  text-white bg-[rgba(247,247,247,.1)] p-4 rounded-3xl cursor-pointer"
+        >
+          <a href="adrak.com">{comingSoon ? "Coming Soon.." : "Play Now"}</a>
+        </button>
       </div>
     </div>
   );
