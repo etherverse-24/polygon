@@ -15,7 +15,7 @@ const Featured = () => {
                 loading="lazy"
                 alt=""
                 className="games-main-img-logo lg:mb-4"/> */}
-          <h1 className="text-[40px] text-center lg:text-left" data-aos="fade-up">
+          <h1 className="text-4xl text-center lg:text-left" data-aos="fade-up">
             Our Featured Game
           </h1>
           <h1 className="text-3xl text-gray-400 pt-5 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
