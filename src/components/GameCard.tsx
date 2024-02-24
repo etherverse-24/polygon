@@ -42,7 +42,7 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon }) => {
           onClick={() => {
             console.log("clicked");
           }}
-          className="flexCenter  px-12 max-w-44  text-white bg-[rgba(247,247,247,.1)] p-4 rounded-3xl cursor-pointer"
+          className="flexCenter  px-6 w-44  text-white bg-[rgba(247,247,247,.1)] p-4 rounded-3xl cursor-pointer"
         >
           <a href="adrak.com">{comingSoon ? "Coming Soon.." : "Play Now"}</a>
         </button>
