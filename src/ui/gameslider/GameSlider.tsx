@@ -67,10 +67,10 @@ const GameSlider = () => {
             <div className="relative z-10 lg:w-[85%] mx-auto">
               <div className="pt-10 lg:pt-32 lg:w-1/3">
                 <h1 className="text-4xl text-center lg:text-left">Our Games</h1>
-                <h1 className="text-4xl lg:text-4xl pt-10 text-center lg:text-left">
+                <h1 className="text-3xl text-gray-400  pt-10 text-center lg:text-left">
                   {item.heading}
                 </h1>
-                <h2 className="text-lg pt-10 text-center lg:text-left">
+                <h2 className="text-lg text-gray-400 pt-10 text-center lg:text-left">
                   {item.desc}
                 </h2>{" "}
               </div>

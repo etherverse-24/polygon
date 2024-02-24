@@ -6,8 +6,8 @@
   // left: -20px;
   // right: auto;
   // margin-inline: 10px;
-
-  background: #0808085c;
+  background-color: rgba(13, 15, 27, .33);
+  // background: #0808085c;
   // background: red;
   // backdrop-filter: blur(10px);
   // box-shadow: inset 0 63px 30px -6px #000000e3;
@@ -17,6 +17,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  backdrop-filter: blur(22px);
+    background-color: rgba(0, 0, 0, .01);
+    border: 1px solid #212121;
   img {
     // margin-top: 16px;
     height: 60px;

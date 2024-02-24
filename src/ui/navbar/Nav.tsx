@@ -14,11 +14,11 @@ const Navbar = () => {
 
   return (
     <header className="fixed z-[100] lg:top-4 w-full">
-      <nav className="h-20 lg:px-32 flexBetween rounded-3xl mx-auto nav text-white font-bold transition-all ">
+      <nav className="h-20 lg:px-32 flexCenter rounded-3xl mx-auto nav text-white font-bold transition-all ">
         {" "}
-        <a href="#hero">
+        {/* <a href="#hero">
           <img src="https://polygon-blockchain.vercel.app/assets/icon/logo-1.png" className=" filter drop-shadow-xl" alt="" />
-        </a>
+        </a> */}
         <div className={isMenuOpen ? `links nav-mobile-active` : "links"}>
           <ul>
             {NAV_BAR_LINKS.map((item, i) => (

@@ -152,4 +152,34 @@ export const NAV_BAR_LINKS = [
     coming_soon:true
     // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
+  {
+    Game_name:'Bird Down',
+    img:'./bird_down.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Snake Rush',
+    img:'./snake_rush.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Switch Color',
+    img:'./switch_color.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Water Sort',
+    img:'./water_sort.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
+  {
+    Game_name:'Tetris',
+    img:'./tetris.jpg',
+    coming_soon:true
+    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+  },
  ]

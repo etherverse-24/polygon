@@ -1,3 +1,4 @@
+import Heading from "../../components/heading/Heading";
 import "./feature.scss";
 
 const Featured = () => {
@@ -18,7 +19,7 @@ const Featured = () => {
             Our Featured Game
           </h1>
           <h1 className="text-3xl text-gray-400 pt-5 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
-            MetaDogeUnity
+          <Heading text="MetadogeUnity"/>
           </h1>
           <h2 className="text-lg pt-10 text-gray-600 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
             MULTICHAIN METAVERSE AAA GAMEFI PLATFORM THAT COMBINES THE POWER OF
