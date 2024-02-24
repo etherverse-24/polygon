@@ -1,5 +1,6 @@
 import { FC } from "react";
 import Button from "../../components/Button";
+import Heading from "../../components/heading/Heading";
 interface Slides {
   video: string;
   heading: string;
@@ -11,7 +12,8 @@ const Slider2: FC<Slides> = ({ heading, desc, video }) => {
     <section id="" className="min-h-[80vh] z-10 text-white relative uuu">
       <div className=" h-full min-h-[80vh] lg:w-[85%] p-10 lg:p-0 mx-auto flex flex-wrap ">
         <div className="lg:w-1/2 lg:pt-32 text-center lg:text-left">
-          <div className="text-4xl mb-10 font-bold">{heading}</div>
+          <Heading text={heading} />
+          {/* <div className="text-4xl mb-10 font-bold">{heading}</div> */}
           <div className="text-lg">{desc}</div>
           <div className="pt-10 lg:w-1/3 w-2/3 mx-auto lg:mr-auto lg:ml-0 ">
             <Button text={"View Game"} />
