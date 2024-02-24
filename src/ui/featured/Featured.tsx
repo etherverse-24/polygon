@@ -5,7 +5,7 @@ const Featured = () => {
   return (
     <section
       id="featured"
-      className="min-h-[80vh] z-10 text-white relative "
+      className="lg:min-h-[80vh]  z-10 text-white relative "
     >
       <div className="test"></div>
       {/* <img src="/bg.png" className="absolute w-full h-full opacity-50 -z-10" alt="" /> */}
