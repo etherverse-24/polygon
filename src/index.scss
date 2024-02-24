@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap");
+@font-face {
+  font-family: headingfont;
+  src: url("/public/fonts/headingfont.ttf");
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,7 +15,6 @@
   scroll-margin: 120px;
   box-sizing: border-box;
   font-family: "poppins", "sans-serif";
-  
 }
 ::selection {
   /* color: red; */
@@ -34,26 +37,20 @@
 ::-webkit-scrollbar-thumb {
   height: 50px;
   background-clip: content-box;
-  background: linear-gradient( 
-  rgb(92 2 115 / 58%),
-  #a6659b,
-  #d9299b8a,
-  #4d7ea8);
+  background: linear-gradient(rgb(92 2 115 / 58%), #a6659b, #d9299b8a, #4d7ea8);
 
   border: 1px solid rgba(0, 0, 0, 1);
   border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient( 
-  rgb(92 2 115 / 58%),
-  #d9299b8a,
-  #a6659b,
-  #4d7ea8);
+  background: linear-gradient(rgb(92 2 115 / 58%), #d9299b8a, #a6659b, #4d7ea8);
+}
+.main-heading {
+  font-family: headingfont;
 }
 body {
-
-  background:#000000;
+  background: #000000;
   // background: url('/block.gif');
 
   selection {
@@ -62,10 +59,10 @@ body {
   }
 }
 @layer utilities {
-  .adrak{
-    perspective-origin: right;  
+  .adrak {
+    perspective-origin: right;
     transform-origin: right;
-    transform: rotateZ(20deg) rotateX(20deg) rotateY(20deg)
+    transform: rotateZ(20deg) rotateX(20deg) rotateY(20deg);
 
     // transform: rotate3d(1, 1, 1, 32deg);
   }
@@ -123,9 +120,6 @@ body {
   .custom-shadow-2 {
     box-shadow: inset 0px 0px 78px 20px #010d1c;
   }
-
-  
- 
 }
 /* color:'[rgba(193,81,81,0.75)]' */
 .gradient-text {
@@ -230,7 +224,7 @@ body {
 .hue1 {
   filter: hue-rotate(72deg);
 }
-.video-hue{
+.video-hue {
   filter: hue-rotate(41deg);
 }
 
@@ -275,29 +269,28 @@ body {
   background-position: center center;
   animation: animate 50s linear infinite;
 }
-.mainheading::after{
-content:'';
-position:absolute;
-bottom: 0;
-margin-top: 4px;
-left:0;
-border-radius: 4px;
-height:5px;
-width: 50%;
-background: linear-gradient(
-  to right,
-  rgb(190 14 235 / 96%),
-  #d9299bfc,
-  #e68bd6,
-  #60a9e7
-);
+.mainheading::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  margin-top: 4px;
+  left: 0;
+  border-radius: 4px;
+  height: 5px;
+  width: 50%;
+  background: linear-gradient(
+    to right,
+    rgb(190 14 235 / 96%),
+    #d9299bfc,
+    #e68bd6,
+    #60a9e7
+  );
 }
-.starSide{
+.starSide {
   /* animation: star 2s ease-in infinite; */
   animation: scale 20s ease-in infinite;
-  height:20px;
-  opacity:0.5;
-
+  height: 20px;
+  opacity: 0.5;
 }
 
 @keyframes scale {
@@ -318,7 +311,7 @@ background: linear-gradient(
   top: 0;
   z-index: 1;
 }
-.uuu{
+.uuu {
   background: url("https://www.chainex.live/static/media/chainxbg.ec720b723ec9f44a8f0eca04c0ef9aba.svg");
   background-repeat: no-repeat;
   background-size: cover;
