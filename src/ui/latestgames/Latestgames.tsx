@@ -1,10 +1,4 @@
 import { latest_games } from "../../constents";
-
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation, Pagination, Autoplay, Mousewheel } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import GameCard from "../../components/GameCard";
 import Heading from "../../components/heading/Heading";
