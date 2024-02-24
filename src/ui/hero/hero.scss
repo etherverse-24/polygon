@@ -9,6 +9,12 @@
 
   //   z-index: 2;
 }
+.hero-head{
+  -webkit-text-fill-color: transparent;
+  background:url('text.gif');
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 .container_bg {
   z-index: 0;
   width: 100%;

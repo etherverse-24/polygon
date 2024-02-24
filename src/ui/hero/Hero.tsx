@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="lg:min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
         <div className="container_bg z-0"></div>
         <div className="lg:pt-64 pt-40 w-full flex-col gap-8 flexCenter relative z-10">
-          <h1 className="text-white text-center text-4xl lg:text-6xl font-semibold tracking-wide ">
+          <h1 className="text-white text-center text-4xl lg:text-6xl font-semibold tracking-wide hero-head ">
             PLAY 2 EARN {""}
             <ReactTyped
               strings={[" BLOCKCHAIN UNITY GAMES!"]}
