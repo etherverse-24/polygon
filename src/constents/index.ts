@@ -48,138 +48,111 @@ export const NAV_BAR_LINKS = [
   export const games=[{
     Game_name:'Slot Machine',
     img:'./slot_machnie.jpg',
-    coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+    coming_soon:false
   },
   {
     Game_name:'Poker',
     img:'./poker.jpg',
-    coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+    coming_soon:false
   },
-  // {
-  //   Game_name:'MetadogeUnity',
-  //   img:'./metadoge.jpg',
-  //   coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
-  // },
+
   {
     Game_name:'Real Estate',
     img:'./real_estate.jpg',
-    coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+    coming_soon:false
   },
   {
     Game_name:'Fortune Wheel',
     img:'./fortune_wheel.jpg',
-    coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
+    coming_soon:false
   },
   {
     Game_name:'Black Jack',
     img:'./black_jack.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Solitaire',
     img:'./solitaire.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Killer Boy',
     img:'./killer_boy.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Falling Block',
     img:'./faling_block.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Helix',
     img:'./helix.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Carrom',
     img:'./carrom.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'flappy Disk',
     img:'./flappy_disk.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Galaxy Battle',
     img:'./galaxy_battle.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Jump dude',
     img:'./jump_dude.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Merge Number',
     img:'./merge_number.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },{
     Game_name:'Spin Rush',
     img:'./spin_rush.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Bubble Shooter',
     img:'./bubble_shooter.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Ludo',
     img:'./ludo.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Bird Down',
     img:'./bird_down.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Snake Rush',
     img:'./snake_rush.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Switch Color',
     img:'./switch_color.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Water Sort',
     img:'./water_sort.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
   {
     Game_name:'Tetris',
     img:'./tetris.jpg',
     coming_soon:true
-    // des:'Ludo is goodadddddddd dddddddddddrakkkk'
   },
  ]
