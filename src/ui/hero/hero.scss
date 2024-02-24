@@ -3,7 +3,8 @@
   // background-image: linear-gradient(rgba(10, 10, 10, 0) 20%, #0a0a0a 61%);
   position: absolute;
   top: 0%;
-  bottom: -50%;
+  bottom: 0;
+  // bottom: -50%;
   left: 0%;
   right: 0%;
 
@@ -148,7 +149,7 @@ $color_1: #fff;
     }
   }
   .hero_bg-gradient{
-    left: -70%;
+    left: -30%;
   }
 }
 @media screen and (max-width: 991px) {

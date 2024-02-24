@@ -13,13 +13,13 @@ const Hero = () => {
         <video
           src="./backg_header.mp4"
           style={{ maxWidth: "none" }}
-          className="lg:w-full"
+          className="h-full lg:h-auto w-full object-cover"
           muted
           autoPlay
           loop
         ></video>
       </div>
-      <div className="lg:min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
+      <div className="min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
         <div className="container_bg z-0"></div>
         <div className="lg:pt-64 pt-40 w-full flex-col gap-8 flexCenter relative z-10">
           <div className="h-24 lg:h-auto">
