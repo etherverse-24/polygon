@@ -67,7 +67,7 @@ const GameSlider = () => {
             ></video>
             <div className="relative z-10 lg:w-[85%] mx-auto">
               <div className="pt-10 lg:pt-32 lg:w-1/3">
-                <Heading text="Our Games"/>
+                <Heading text="Our Games" className="text-center lg:text-left"/>
                 <h1 className="text-3xl text-gray-400  pt-10 text-center lg:text-left">
                   {item.heading}
                 </h1>
