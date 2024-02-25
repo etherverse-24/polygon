@@ -5,7 +5,7 @@ const Featured = () => {
   return (
     <section
       id="featured"
-      className="lg:min-h-[80vh] min-h-[60vh]  z-10 text-white relative "
+      className="lg:min-h-[80vh] min-h-[90vh] sm:min-h-[60vh]  z-10 text-white relative "
     >
       <div className="test"></div>
       {/* <img src="/bg.png" className="absolute w-full h-full opacity-50 -z-10" alt="" /> */}
@@ -18,10 +18,18 @@ const Featured = () => {
           <h1 className="text-4xl text-center lg:text-left" data-aos="fade-up">
             Our Featured Game
           </h1>
-          <h1 className="text-3xl text-gray-400 pt-5 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
-          <Heading text="MetadogeUnity" className="text-gray-400"/>
+          <h1
+            className="text-3xl text-gray-400 pt-5 text-center lg:text-left"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <Heading text="MetadogeUnity" className="text-gray-400" />
           </h1>
-          <h2 className="text-lg pt-10 text-gray-600 text-center lg:text-left"  data-aos="fade-up" data-aos-delay="100">
+          <h2
+            className="text-lg pt-10 text-gray-600 text-center lg:text-left"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             MULTICHAIN METAVERSE AAA GAMEFI PLATFORM THAT COMBINES THE POWER OF
             ACCOUNT ABSTRACTION AND BITCOIN
           </h2>{" "}

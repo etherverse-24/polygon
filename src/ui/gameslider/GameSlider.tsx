@@ -38,7 +38,7 @@ const GameSlider = () => {
     },
   ];
   return (
-    <section id="gameslider" className="min-h-[80vh] z-10 text-white relative">
+    <section id="gameslider" className="min-h-[100vh] lg:min-h-[80vh]  z-10 text-white relative">
       <Swiper
          spaceBetween={30}
          effect={'fade'}
@@ -55,7 +55,7 @@ const GameSlider = () => {
         className="relative -z-0 min-h-[80vh] h-full"
       >
         {slides.map((item, i) => (
-          <SwiperSlide key={i} className="relative h-full min-h-[80vh]">
+          <SwiperSlide key={i} className="relative h-full lg:min-h-[80vh] min-h-[100vh]">
             <div className="test"></div>
             <video
               src={item.video}

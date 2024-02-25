@@ -19,9 +19,9 @@ const Hero = () => {
           loop
         ></video>
       </div>
-      <div className="min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4">
+      <div className="min-h-lvh relative lg:rounded-[40px] overflow-hidden p-4 flexCenter">
         <div className="container_bg z-0"></div>
-        <div className="lg:pt-64 pt-40 w-full flex-col gap-8 flexCenter relative z-10">
+        <div className=" w-full flex-col gap-8 flexCenter relative z-10">
           <div className="h-24 lg:h-auto">
             <h1 className="text-white text-center text-4xl lg:text-6xl font-semibold tracking-wide  ">
               PLAY 2 EARN {""}

@@ -15,9 +15,11 @@ function App() {
     Aos.init({ duration: 1000 });
   }, []);
 
+  console.log(window.innerWidth);
+  
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Featured />
       <Latestgames />
