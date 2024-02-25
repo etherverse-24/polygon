@@ -52,7 +52,7 @@ const GameSlider = () => {
          scrollbar={{ draggable: true }}
          autoplay ={{delay:5000}}
          modules={[EffectFade, Navigation, Pagination,Autoplay]}
-        className="relative -z-0 min-h-[80vh] h-full"
+        className="relative -z-0 lg:min-h-[80vh] min-h-[100vh]"
       >
         {slides.map((item, i) => (
           <SwiperSlide key={i} className="relative h-full lg:min-h-[80vh] min-h-[100vh]">
