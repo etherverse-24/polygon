@@ -4,7 +4,7 @@ import Footer from "./ui/footer/Footer";
 import Game from "./ui/game/Game";
 import Latestgames from "./ui/latestgames/Latestgames";
 import Hero from "./ui/hero/Hero";
-import Navbar from "./ui/navbar/Nav";
+
 import GameSlider from "./ui/gameslider/GameSlider";
 import { useEffect } from "react";
 import Aos from "aos";
@@ -15,11 +15,11 @@ function App() {
     Aos.init({ duration: 1000 });
   }, []);
 
-  console.log(window.innerWidth);
+
   
   return (
     <>
-      {/* <Navbar /> */}
+
       <Hero />
       <Featured />
       <Latestgames />
