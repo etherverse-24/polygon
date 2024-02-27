@@ -38,7 +38,7 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon,i }) => {
           </div>
         </div>
       </div>
-      <div className="z-20 bottom-1 lg:bottom-9 flexCenter w-full absolute" data-aos="zoom-out" >
+      <div className="z-20 bottom-4 lg:bottom-9 flexCenter w-full absolute" data-aos="zoom-out" >
         <button
           disabled={comingSoon}
           className={`flexCenter  px-6 lg:w-52  text-white bg-[rgba(247,247,247,.1)] p-2 lg:p-4 rounded-3xl shadow
