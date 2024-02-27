@@ -45,7 +45,7 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon,i }) => {
           ${comingSoon ? "cursor-not-allowed" : "cursor-pointer"} `}
         >
           {comingSoon ? (
-            <p>Coming Soon...</p>
+            <p className="text-[12px]">Coming Soon...</p>
           ) : (
             <a href={item.link}>Play Now</a>
           )}
