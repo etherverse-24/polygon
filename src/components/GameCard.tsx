@@ -13,7 +13,7 @@ interface GameCardProps {
 
 const GameCard: FC<GameCardProps> = ({ item, comingSoon,i }) => {
   return (
-    <div className="card w-full  lg:w-[300px] lg:h-[400px] h-[200px]  mx-auto relative bg-[#0c0c0c] " data-aos="zoom-in" data-aos-delay={`${i&&i*50}`}>
+    <div className="card w-full  lg:w-[300px] lg:h-[400px]   mx-auto relative bg-[#0c0c0c] " data-aos="zoom-in" data-aos-delay={`${i&&i*50}`}>
       <div className="absolute w-full h-full inset-0 z-10 shadow"></div>
       {comingSoon && (
         // <div className="absolute h-6 w-28 bg-red-200 z-20 right-0 rotate-45 translate-y-5 flexCenter translate-x-6">
