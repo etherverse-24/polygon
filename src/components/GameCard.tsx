@@ -1,5 +1,6 @@
 import { FC } from "react";
 import "./gamecard.scss";
+import { CiLock } from "react-icons/ci";
 interface GameCardProps {
   item: {
     img: string;
@@ -49,6 +50,7 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon,i }) => {
           ) : (
             <a href={item.link}>Play Now</a>
           )}
+          <CiLock className="ml-2 size-5 text-yellow-600"/>
         </button>
       </div>
     </div>
