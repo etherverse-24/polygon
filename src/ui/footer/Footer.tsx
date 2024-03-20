@@ -7,7 +7,7 @@ function Footer() {
     <>
       <section id="footer" className="border-t">
         <div className="left__content ">
-          <a href="mailto:contact@polygon.xyz">contact@polygon.xyz</a>
+          <a href="mailto:info@metadogeunity.in">info@metadogeunity.in</a>
         </div>
         <div className="center__content">
           <ul>
@@ -23,18 +23,18 @@ function Footer() {
             ))}
           </ul>
 
-          <ul>
-            <h2>
-              <b>Resources</b>
-            </h2>
-            {footer_data.Social_head.map((item, i) => (
-              <li key={i}>
-                <a href={item.link} target="_blank">
-                  {item.title}
-                </a>
-              </li>
-            ))}
-          </ul>
+            {/* <ul>
+              <h2>
+                <b>Resources</b>
+              </h2>
+              {footer_data.Social_head.map((item, i) => (
+                <li key={i}>
+                  <a href={item.link} target="_blank">
+                    {item.title}
+                  </a>
+                </li>
+              ))}
+            </ul> */}
         </div>
       </section>
       <div className="last__footer">

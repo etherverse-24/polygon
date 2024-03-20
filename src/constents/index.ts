@@ -10,10 +10,10 @@ export const NAV_BAR_LINKS = [
     Social: [
       {
         heading: "Socials",
-        link: "javaScript:;",
+        link: "https://twitter.com/MetaDogeUnity",
         title: "Twitter",
       },
-      { heading: "Resources", link: "javaScript:;", title: "Telegram" },
+      { heading: "Resources", link: "https://t.me/MetadogeUnity", title: "Telegram" },
     ],
     Social_head: [
       {
