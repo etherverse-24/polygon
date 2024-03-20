@@ -38,7 +38,7 @@ function Footer() {
         </div>
       </section>
       <div className="last__footer">
-        <p>© Copyright 2024 polygon blockchain. All Rights Reserved</p>
+        <p>©2023 MetaDogeUnity. All rights reserved</p>
       </div>
     </>
   );
