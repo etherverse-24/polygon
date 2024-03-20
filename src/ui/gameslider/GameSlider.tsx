@@ -85,12 +85,12 @@ const GameSlider = () => {
                       alt=""
                       className="games-main-img-logo"
                     />
-                    <a
+                    {/* <a
                       href="/play/guild-of-guardians"
                       className="bg-[rgba(247,247,247,.1)] p-4 rounded-3xl cursor-pointer"
                     >
                       View game
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="img-cover w-embed">

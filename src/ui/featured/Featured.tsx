@@ -26,7 +26,7 @@ const Featured = () => {
             <Heading text="MetadogeUnity" className="text-gray-400" />
           </h1>
           <h2
-            className="text-lg pt-10 text-gray-600 text-center lg:text-left"
+            className="text-lg pt-10 text-gray-300 text-center lg:text-left"
             data-aos="fade-up"
             data-aos-delay="100"
           >
