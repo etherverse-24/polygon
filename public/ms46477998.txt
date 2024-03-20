@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "metadogeunity.games",
+  "Id": "961e5966-fb2b-4f9f-ae18-243fecc9c0ff"
+}
