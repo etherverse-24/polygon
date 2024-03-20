@@ -3,7 +3,7 @@ import Featured from "./ui/featured/Featured";
 import Footer from "./ui/footer/Footer";
 import Game from "./ui/game/Game";
 import Latestgames from "./ui/latestgames/Latestgames";
-import Hero from "./ui/hero/Hero";
+// import Hero from "./ui/hero/Hero";
 
 import GameSlider from "./ui/gameslider/GameSlider";
 import { useEffect } from "react";
@@ -20,7 +20,7 @@ function App() {
   return (
     <>
 
-      <Hero />
+      {/* <Hero /> */}
       <Featured />
       <Latestgames />
       <Slider2
