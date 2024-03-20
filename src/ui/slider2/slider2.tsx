@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Button from "../../components/Button";
+// import Button from "../../components/Button";
 import Heading from "../../components/heading/Heading";
 interface Slides {
   video: string;
