@@ -59,7 +59,7 @@ const Live = () => {
               </th>
               <td className="px-6 py-5">{item.game}</td>
               <td className="px-6 py-5">{item.betAmount}</td>
-              <td className={`px-6 py-5 text-red-600 ${item.add&&"text-green-600"}`}>{item.payout}</td>
+              <td className={`px-6 py-5  ${item.add?"text-green-600":"text-red-600"}`}>{item.payout}</td>
             </tr>
           ))}
         </tbody>
