@@ -53,7 +53,7 @@ const Live = () => {
             >
               <th
                 scope="row"
-                className=" rounded-lg px-6 py-5 font-medium  whitespace-nowrap text-white"
+                className="  px-6 py-5 font-medium  whitespace-nowrap text-white"
               >
                 {item.user}
               </th>
