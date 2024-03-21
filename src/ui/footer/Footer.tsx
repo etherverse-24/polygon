@@ -7,7 +7,7 @@ function Footer() {
     <>
       <section id="footer" className="border-t">
         <div className="left__content ">
-          <a href="mailto:info@metadogeunity.in">info@metadogeunity.in</a>
+          <a href="mailto:info@metadogeunity.games">info@metadogeunity.games</a>
         </div>
         <div className="center__content">
           <ul>
