@@ -60,8 +60,25 @@ const Live = () => {
                 {item.user}
               </th>
               <td className="px-6 py-5">{item.game}</td>
-              <td className="px-6 py-5">{item.betAmount}</td>
-              <td className={`px-6 py-5  ${item.add ? "text-green-600" : "text-red-600"}`}>{item.payout}</td>
+              <td className="px-6 py-5">
+                <div className="flex gap-1">
+                    <img
+                    className="aspect-square"
+                        src="https://shuffle.com/icons/crypto/btc.svg"
+                        alt=""
+                    />
+                    <span>{item.betAmount}</span>
+                </div>
+               
+                </td>
+              <td className={`px-6 py-5  ${item.add ? "text-green-600" : "text-red-600"}`}><div className="flex gap-1">
+                    <img
+                    className="aspect-square"
+                        src={`https://shuffle.com/icons/crypto/${item.coin}.svg`}
+                        alt=""
+                    />
+                    <span>{item.payout}</span>
+                </div></td>
             </tr>
           ))}
         </tbody>
