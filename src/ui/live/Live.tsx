@@ -63,7 +63,7 @@ const Live = () => {
               <td className="px-6 py-5">
                 <div className="flex gap-1">
                     <img
-                    className="aspect-square"
+                    className="aspect-square h-5"
                     src={`https://shuffle.com/icons/crypto/${item.coin}.svg`}
                         alt=""
                     />
@@ -73,7 +73,7 @@ const Live = () => {
                 </td>
               <td className={`px-6 py-5  ${item.add ? "text-green-600" : "text-red-600"}`}><div className="flex gap-1">
                     <img
-                    className="aspect-square"
+                    className="aspect-square h-5"
                         src={`https://shuffle.com/icons/crypto/${item.coin}.svg`}
                         alt=""
                     />
