@@ -55,7 +55,7 @@ export const latest_games = [
 export type GameType = {
   Game_name: string;
   img: string;
-  coming_soon: boolean;
+  coming_soon?: boolean;
 };
 
 export const games = {
