@@ -49,11 +49,11 @@ const Live = () => {
           {dataWindow.map((item) => (
             <tr
               key={item.id}
-              className={` rounded-lg even:bg-gray-50 even:dark:bg-gray-800  dark:border-gray-700`}
+              className={` rounded-lg  even:bg-gray-800  dark:border-gray-700`}
             >
               <th
                 scope="row"
-                className=" rounded-lg px-6 py-5 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className=" rounded-lg px-6 py-5 font-medium  whitespace-nowrap text-white"
               >
                 {item.user}
               </th>
