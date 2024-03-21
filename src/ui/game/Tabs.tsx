@@ -16,16 +16,16 @@ const Tabs: FC<TabsProps> = ({ selectedTab, className, ...props }) => {
       name: "All",
       id: 1,
     },
-    {
-      name: "New",
-      id: 2,
-    },
+    // {
+    //   name: "New",
+    //   id: 2,
+    // },
     {
       name: "Popular",
       id: 3,
     },
     {
-      name: "Slots",
+      name: "Upcoming",
       id: 4,
     },
   ];
@@ -33,7 +33,7 @@ const Tabs: FC<TabsProps> = ({ selectedTab, className, ...props }) => {
   return (
     <div
       {...props}
-      className={` ${className} w-full h-12  bg-[#202329] max-w-xl mx-auto rounded-lg  grid p-1  grid-cols-4 gap-2`}
+      className={` ${className} w-full h-12  bg-[#202329] max-w-xl mx-auto rounded-lg  grid p-1  grid-cols-3 gap-2`}
     >
       {tabs.map((tab) => (
         <button

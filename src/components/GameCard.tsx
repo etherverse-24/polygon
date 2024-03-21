@@ -40,18 +40,22 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon,i }) => {
         </div>
       </div>
       <div className="z-20 bottom-4 lg:bottom-9 flexCenter w-full absolute" data-aos="zoom-out" >
+        <a href={item.link} target="_blank">
         <button
           disabled={comingSoon}
           className={`flexCenter  px-6 lg:w-52  text-white bg-[rgba(247,247,247,.1)] p-2 lg:p-4 rounded-3xl shadow
           ${comingSoon ? "cursor-not-allowed" : "cursor-pointer"} `}
         >
           {comingSoon ? (
+            <>
             <p className="text-[12px]">Coming Soon...</p>
+            <CiLock className="ml-2 size-5 text-yellow-600"/></>
           ) : (
-            <a href={item.link} target="_blank">Play Now</a>
+            <p >Play Now</p>
           )}
-          <CiLock className="ml-2 size-5 text-yellow-600"/>
+        
         </button>
+        </a>
       </div>
     </div>
   );

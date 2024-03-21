@@ -59,7 +59,14 @@ const Live = () => {
               >
                 {item.user}
               </th>
-              <td className="px-6 py-5">{item.game}</td>
+              <td className="px-6 py-5"> <div className="flex gap-1">
+                    <img
+                    className="aspect-square h-5"
+                    src='./controller.png'
+                        alt=""
+                    />
+                    <span>{item.game}</span>
+                </div></td>
               <td className="px-6 py-5">
                 <div className="flex gap-1">
                     <img
