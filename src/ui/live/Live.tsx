@@ -64,7 +64,7 @@ const Live = () => {
                 <div className="flex gap-1">
                     <img
                     className="aspect-square"
-                        src="https://shuffle.com/icons/crypto/btc.svg"
+                    src={`https://shuffle.com/icons/crypto/${item.coin}.svg`}
                         alt=""
                     />
                     <span>{item.betAmount}</span>
