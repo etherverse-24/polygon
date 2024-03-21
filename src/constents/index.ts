@@ -34,18 +34,22 @@ export const latest_games = [
   {
     img: "./fortune_wheel.jpg",
     Game_name: "Fortune Wheel",
+    link:"https://fortune-wheel2.vercel.app"
   },
   {
-    img: "./solitaire.jpg",
-    Game_name: "Solitaire",
+    img: "./slot_machnie.jpg",
+    Game_name: "Slot Machnie",
+    link:"https://slotmachine-delta.vercel.app/"
   },
   {
     img: "./poker.jpg",
     Game_name: "Poker",
+    link:"https://blackwebgl.vercel.app/"
   },
   {
     img: "./real_estate.jpg",
     Game_name: "Real Estate",
+    link:"https://realestate-vert-eight.vercel.app"
   },
 ];
 export type GameType = {

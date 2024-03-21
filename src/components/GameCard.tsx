@@ -48,7 +48,7 @@ const GameCard: FC<GameCardProps> = ({ item, comingSoon,i }) => {
           {comingSoon ? (
             <p className="text-[12px]">Coming Soon...</p>
           ) : (
-            <a href={item.link}>Play Now</a>
+            <a href={item.link} target="_blank">Play Now</a>
           )}
           <CiLock className="ml-2 size-5 text-yellow-600"/>
         </button>
