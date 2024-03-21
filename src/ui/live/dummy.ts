@@ -4,6 +4,7 @@ export const dummydata = [
       user: "Alice",
       game: "Slot Machine",
       betAmount: "0.005 BTC",
+      add:true,
       payout: "+0.015 BTC",
     },
     {
@@ -11,6 +12,7 @@ export const dummydata = [
       user: "Bob",
       game: "Roulette",
       betAmount: "0.01 ETH",
+      add:true,
       payout: "+0.03 ETH",
     },
     {
@@ -18,6 +20,7 @@ export const dummydata = [
       user: "Charlie",
       game: "Blackjack",
       betAmount: "0.02 LTC",
+      add:true,
       payout: "+0.04 LTC",
     },
     {
@@ -25,6 +28,7 @@ export const dummydata = [
       user: "David",
       game: "Dice",
       betAmount: "0.5 XRP",
+      add:false,
       payout: "-1.0 XRP",
     },
     {
@@ -32,6 +36,7 @@ export const dummydata = [
       user: "Eve",
       game: "Poker",
       betAmount: "100 TRX",
+      add:false,
       payout: "-200 TRX",
     },
     {
@@ -39,6 +44,7 @@ export const dummydata = [
       user: "Frank",
       game: "Baccarat",
       betAmount: "10 ADA",
+      add:false,
       payout: "-20 ADA",
     },
     {
@@ -46,6 +52,7 @@ export const dummydata = [
       user: "Grace",
       game: "Craps",
       betAmount: "50 DOT",
+      add:true,
       payout: "+100 DOT",
     },
     {
@@ -53,6 +60,7 @@ export const dummydata = [
       user: "Harry",
       game: "Keno",
       betAmount: "200 LINK",
+      add:true,
       payout: "+400 LINK",
     },
     {
@@ -60,6 +68,7 @@ export const dummydata = [
       user: "Ivy",
       game: "Sic Bo",
       betAmount: "0.1 DOGE",
+      add:false,
       payout: "-0.2 DOGE",
     },
     {
@@ -67,6 +76,7 @@ export const dummydata = [
       user: "Jack",
       game: "Wheel of Fortune",
       betAmount: "1 WAVES",
+      add:true,
       payout: "+2 WAVES",
     },
     {
@@ -74,13 +84,16 @@ export const dummydata = [
         user: "Kate",
         game: "Bingo",
         betAmount: "5 BNB",
+        add:true,
         payout: "+10 BNB",
       },
       {
         id: 12,
         user: "Liam",
-        game: "Hi-Lo",
+        add:false,game: 
+        "Hi-Lo",
         betAmount: "0.01 ZEC",
+        add:true,
         payout: "+0.02 ZEC",
       },
       {
@@ -88,6 +101,7 @@ export const dummydata = [
         user: "Mia",
         game: "Pai Gow Poker",
         betAmount: "0.05 ATOM",
+        add:true,
         payout: "+0.1 ATOM",
       },
       {
@@ -95,6 +109,7 @@ export const dummydata = [
         user: "Noah",
         game: "Texas Hold'em",
         betAmount: "0.1 NEO",
+        add:true,
         payout: "+0.2 NEO",
       },
       {
@@ -102,6 +117,7 @@ export const dummydata = [
         user: "Olivia",
         game: "Bingo",
         betAmount: "0.5 ALGO",
+        add:false,
         payout: "-1.0 ALGO",
       },
       {
@@ -109,6 +125,7 @@ export const dummydata = [
         user: "Peter",
         game: "Keno",
         betAmount: "1000 USDT",
+        add:false,
         payout: "-2000 USDT",
       },
       {
@@ -116,6 +133,7 @@ export const dummydata = [
         user: "Quinn",
         game: "Craps",
         betAmount: "5 LUNA",
+        add:false,
         payout: "-10 LUNA",
       },
       {
@@ -123,6 +141,7 @@ export const dummydata = [
         user: "Rachel",
         game: "Poker",
         betAmount: "0.05 DASH",
+        add:false,
         payout: "-0.1 DASH",
       },
       {
@@ -130,6 +149,7 @@ export const dummydata = [
         user: "Sam",
         game: "Blackjack",
         betAmount: "10 XLM",
+        add:false,
         payout: "-20 XLM",
       },
       {
@@ -137,6 +157,7 @@ export const dummydata = [
         user: "Tom",
         game: "Slot Machine",
         betAmount: "0.005 ADA",
+        add:false,
         payout: "-0.015 ADA",
       },
       {
@@ -144,6 +165,7 @@ export const dummydata = [
         user: "Uma",
         game: "Roulette",
         betAmount: "0.01 XTZ",
+        add:false,
         payout: "-0.03 XTZ",
       },
       {
@@ -151,6 +173,7 @@ export const dummydata = [
         user: "Victor",
         game: "Dice",
         betAmount: "0.5 BUSD",
+        add:false,
         payout: "-1.0 BUSD",
       },
       {
@@ -158,6 +181,7 @@ export const dummydata = [
         user: "Wendy",
         game: "Baccarat",
         betAmount: "10 EOS",
+        add:false,
         payout: "-20 EOS",
       },
       {
@@ -165,6 +189,7 @@ export const dummydata = [
         user: "Xander",
         game: "Poker",
         betAmount: "1000 TRX",
+        add:false,
         payout: "-2000 TRX",
       },
       {
@@ -172,6 +197,7 @@ export const dummydata = [
         user: "Yara",
         game: "Blackjack",
         betAmount: "0.1 BNB",
+        add:false,
         payout: "-0.2 BNB",
       },
       {
@@ -179,6 +205,7 @@ export const dummydata = [
         user: "Zoe",
         game: "Roulette",
         betAmount: "1 WAVES",
+        add:true,
         payout: "+2 WAVES",
       },
       {
@@ -186,6 +213,7 @@ export const dummydata = [
         user: "Adam",
         game: "Slot Machine",
         betAmount: "0.01 LTC",
+        add:true,
         payout: "+0.03 LTC",
       },
       {
@@ -193,6 +221,7 @@ export const dummydata = [
         user: "Becky",
         game: "Dice",
         betAmount: "0.05 XRP",
+        add:true,
         payout: "+0.1 XRP",
       },
       {
@@ -200,6 +229,7 @@ export const dummydata = [
         user: "Carl",
         game: "Baccarat",
         betAmount: "1000 TRX",
+        add:true,
         payout: "+2000 TRX",
       },
       {
@@ -207,6 +237,7 @@ export const dummydata = [
         user: "Diana",
         game: "Poker",
         betAmount: "0.1 ETH",
+        add:true,
         payout: "+0.2 ETH",
       },
       {
@@ -214,6 +245,7 @@ export const dummydata = [
         user: "Eric",
         game: "Craps",
         betAmount: "0.05 LTC",
+        add:false,
         payout: "-0.1 LTC",
       },
       {
@@ -221,6 +253,7 @@ export const dummydata = [
         user: "Fiona",
         game: "Slot Machine",
         betAmount: "0.001 BTC",
+        add:false,
         payout: "-0.003 BTC",
       },
       {
@@ -228,6 +261,7 @@ export const dummydata = [
         user: "George",
         game: "Roulette",
         betAmount: "0.5 ETH",
+        add:false,
         payout: "-1.0 ETH",
       },
       {
@@ -235,6 +269,7 @@ export const dummydata = [
         user: "Holly",
         game: "Blackjack",
         betAmount: "10 TRX",
+        add:false,
         payout: "-20 TRX",
       },
       {
@@ -242,6 +277,7 @@ export const dummydata = [
         user: "Ian",
         game: "Dice",
         betAmount: "0.01 ETH",
+        add:false,
         payout: "-0.03 ETH",
       },
       {
@@ -249,6 +285,7 @@ export const dummydata = [
         user: "Julia",
         game: "Poker",
         betAmount: "0.05 LTC",
+        add:false,
         payout: "-0.1 LTC",
       },
       {
@@ -256,6 +293,7 @@ export const dummydata = [
         user: "Kevin",
         game: "Slot Machine",
         betAmount: "0.1 BTC",
+        add:false,
         payout: "-0.3 BTC",
       },
       {
@@ -263,6 +301,7 @@ export const dummydata = [
         user: "Lena",
         game: "Baccarat",
         betAmount: "0.5 ETH",
+        add:false,
         payout: "-1.0 ETH",
       },
       {
@@ -270,6 +309,7 @@ export const dummydata = [
         user: "Mark",
         game: "Craps",
         betAmount: "0.05 BTC",
+        add:false,
         payout: "-0.1 BTC",
       },
       {
@@ -277,6 +317,7 @@ export const dummydata = [
         user: "Nora",
         game: "Roulette",
         betAmount: "0.01 ETH",
+        add:false,
         payout: "-0.03 ETH",
       },
     // Add more data here...
