@@ -37,7 +37,7 @@ export const dummydata = [
       game: "Poker",
       betAmount: "0.9 ETH",
       add: false,
-      payout: "-200 ETH",
+      payout: "-1 ETH",
     },
     {
       id: 6,
@@ -59,9 +59,9 @@ export const dummydata = [
         id: 8,
         user: "Harry",
         game: "Keno",
-        betAmount: "200 ETH",
+        betAmount: "1 ETH",
         add: true,
-        payout: "+400 ETH",
+        payout: "+2 ETH",
     },
     {
         id: 9,
@@ -125,7 +125,7 @@ export const dummydata = [
         game: "Keno",
         betAmount: "0.90 ETH",
         add: false,
-        payout: "-2000 ETH",
+        payout: "-10 ETH",
     },
     {
         id: 17,
@@ -189,7 +189,7 @@ export const dummydata = [
         game: "Poker",
         betAmount: "0.90 ETH",
         add: false,
-        payout: "-2000 ETH",
+        payout: "-10 ETH",
     },
     {
         id: 25,
@@ -229,7 +229,7 @@ export const dummydata = [
         game: "Baccarat",
         betAmount: "0.90 BTC",
         add: true,
-        payout: "+2000 BTC",
+        payout: "+10 BTC",
     },
     {
         id: 30,
