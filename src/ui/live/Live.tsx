@@ -24,7 +24,9 @@ const Live = () => {
   }, []);
 
   // Create a window of 10 data items
-  const dataWindow = dummydata.slice(startIndex, endIndex);
+  const dataWindow = endIndex > startIndex
+    ? dummydata.slice(startIndex, endIndex)
+    : [...dummydata.slice(startIndex), ...dummydata.slice(0, endIndex)];
 
   return (
     <div className="relative overflow-x-auto shadow-md sm:rounded-lg lg:px-32 py-20">
@@ -59,7 +61,7 @@ const Live = () => {
               </th>
               <td className="px-6 py-5">{item.game}</td>
               <td className="px-6 py-5">{item.betAmount}</td>
-              <td className={`px-6 py-5  ${item.add?"text-green-600":"text-red-600"}`}>{item.payout}</td>
+              <td className={`px-6 py-5  ${item.add ? "text-green-600" : "text-red-600"}`}>{item.payout}</td>
             </tr>
           ))}
         </tbody>
