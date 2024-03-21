@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { dummydata } from "./dummy";
-
+import { FaUser } from "react-icons/fa";
 const Live = () => {
   const dataLength = dummydata.length;
   const [startIndex, setStartIndex] = useState(0);
@@ -55,8 +55,9 @@ const Live = () => {
             >
               <th
                 scope="row"
-                className="  px-6 py-5 font-medium  whitespace-nowrap text-white"
-              >
+                className=" flex gap-2 px-6 py-5 font-medium  whitespace-nowrap text-white"
+              > 
+              <FaUser className='mt-[0.1px]'/>
                 {item.user}
               </th>
               <td className="px-6 py-5"> <div className="flex gap-1">
