@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Slider2 from "./ui/slider2/slider2";
+import Live from "./ui/live/Live";
 function App() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -23,6 +24,7 @@ function App() {
       {/* <Hero /> */}
       <Featured />
       <Latestgames />
+      <Live/>
       <Slider2
         video="./game3.mp4"
         heading="Space Fighter"
